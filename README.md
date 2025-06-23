@@ -2614,8 +2614,12 @@ En el desarrollo de este spring se hizo la implementacion de los endpoints con S
   <img src="./imagenes/swagger/endpoints3.png" alt="swagger3" width="750">
 </p>
 <p align="center">
+  <img src="./imagenes/swagger/endpoints4.png" alt="swagger3" width="750">
+</p>
+<p align="center">
   <img src="./imagenes/frontend.png" alt="swagger3" width="750">
 </p>
+
 
 ##### 5.2.3.6. Service Documentation Evidence for Sprint Review.
 | Endpoint                  | Acción                          | Método HTTP | Sintaxis de llamada           | Parámetros                                                                                                                                         | Ejemplo de Response                                                                                                                                                                                                                                                                                                                                                       | URL Documentación |
