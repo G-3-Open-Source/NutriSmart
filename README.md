@@ -833,7 +833,7 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | US-31 | Visualización de Tendencias | Como usuario, quiero visualizar tendencias de mi comportamiento alimenticio. | Escenario 1: **Given** que tengo suficiente historial, **When** consulto tendencias, **Then** podré ver gráficas de consumo de calorías, nutrientes y hábitos. <br><br> Escenario 2: **Given** que quiero profundizar en detalles, **When** selecciono un nutriente específico, **Then** podré ver su evolución en el tiempo. | EP-04 |
 | US-32 | Personalización de Interfaz | Como usuario, quiero personalizar colores y temas de la app para mejorar mi experiencia. | Escenario 1: **Given** que accedo a configuración de apariencia, **When** elijo un tema, **Then** la app aplicará los cambios visualmente. <br><br> Escenario 2: **Given** que restauro valores por defecto, **When** confirmo la acción, **Then** la app volverá al tema original. | EP-08 |
 | US-33 | Feedback de Uso Diario | Como usuario, quiero recibir feedback rápido al final del día sobre mi desempeño nutricional. | Escenario 1: **Given** que termino el día, **When** accedo al resumen diario, **Then** recibiré comentarios personalizados. <br><br> Escenario 2: **Given** que tengo días inconsistentes, **When** recibo feedback, **Then** la app me dará sugerencias específicas de mejora. | EP-09 |
-| US-34 | Alertas de Objetivos No Alcanzados | Como usuario, quiero recibir alertas cuando no cumpla mis objetivos diarios. | Escenario 1: **Given** que no alcanzo un objetivo, **When** se cierra el día, **Then** recibiré una notificación sobre ello. <br><br> Escenario 2: **Given** que desactivo alertas, **When** lo configuro en preferencias, **Then** no recibiré recordatorios de objetivos fallidos. | EP-03 |
+| US-34 | Recibir alertas por incumplimiento diario de objetivos | Como usuario, quiero recibir alertas cuando no cumpla mis objetivos diarios. | Escenario 1: **Given** que no alcanzo un objetivo, **When** se cierra el día, **Then** recibiré una notificación sobre ello. <br><br> Escenario 2: **Given** que desactivo alertas, **When** lo configuro en preferencias, **Then** no recibiré recordatorios de objetivos fallidos. | EP-03 |
 | US-35 | Visualización de Macronutrientes | Como usuario, quiero ver la distribución de macronutrientes diarios que consumo. | Escenario 1: **Given** que registro comidas, **When** accedo a mi resumen diario, **Then** podré ver porcentajes de proteínas, grasas y carbohidratos. <br><br> Escenario 2: **Given** que selecciono un día anterior, **When** consulto macronutrientes, **Then** podré analizar los datos históricos. | EP-04 |
 | US-36 | Ajuste de Notificaciones | Como usuario, quiero personalizar la frecuencia y tipo de notificaciones que recibo. | Escenario 1: **Given** que accedo a configuración de notificaciones, **When** ajusto la frecuencia, **Then** solo recibiré alertas según mis preferencias. <br><br> Escenario 2: **Given** que desactivo todas las notificaciones, **When** confirmo la acción, **Then** dejaré de recibir avisos de la app. | EP-08 |
 | US-37 | Mensajes Motivacionales | Como usuario, quiero recibir mensajes motivacionales diarios para mantenerme enfocado. | Escenario 1: **Given** que activo mensajes motivacionales, **When** inicia el día, **Then** recibiré un mensaje positivo automáticamente. <br><br> Escenario 2: **Given** que desactivo mensajes, **When** cambio configuración, **Then** no recibiré mensajes motivacionales diarios. | EP-03 |
@@ -865,7 +865,36 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | TS-63    | Implementar Endpoint para Registro de Usuario | Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema.                                        | **Given** el endpoint /api/v1/auth/sign-up esté disponible, **When** se envía una solicitud POST con los datos del usuario, **Then** el sistema responde con estado 201.       | EP-15  |
 | TS-64    | Generación de Reportes de Progreso      | Como desarrollador, quiero crear una funcionalidad que genere reportes de progreso mensuales para que el usuario vea sus avances.       | **Given** que existe un historial de consumo y actividad, **When** se solicita el reporte mensual, **Then** el sistema genera un archivo con gráficos y métricas nutricionales. | EP-15  |
 | TS-65    | Módulo de Recomendaciones Dinámicas     | Como desarrollador, quiero implementar un módulo que actualice las recomendaciones nutricionales automáticamente según los registros del usuario. | **Given** que el usuario ha registrado cambios recientes, **When** accede a las recomendaciones, **Then** el sistema ajusta dinámicamente las sugerencias.                     | EP-15  |
-| TS-66    | Sistema de Notificaciones Personalizadas | Como desarrollador, quiero programar notificaciones personalizadas para recordar a los usuarios sus comidas, metas o revisiones pendientes. | **Given** que el usuario tiene recordatorios configurados, **When** llega la hora o el evento configurado, **Then** el sistema envía una notificación push o correo.           | EP-15  |
+| TS-66    | Sistema de Notificaciones Personalizadas | Como desarrollador, quiero programar notificaciones personalizadas para recordar a los usuarios sus comidas, metas o revisiones pendientes. | **Given** que el usuario tiene recordatorios configurados, **When** llega la hora o el evento configurado, **Then** el sistema envía una notificación push o correo.| EP-15  |
+| TS-67   | Edición de Datos del Perfil                   | Como usuario, quiero poder editar los datos de mi perfil de salud, incluyendo peso, altura y alergias, para mantener mi información actualizada.          | Escenario 1: **Given** que ya tengo un perfil creado, **When** actualizo mi información (peso, altura o alergias), **Then** el sistema debe guardar los nuevos valores.| EP-01   |
+ | TS-68   | Eliminación de Perfil                         | Como usuario, quiero eliminar mi perfil de salud en caso de que ya no desee seguir usando funcionalidades personalizadas.                                  | Escenario 1: **Given** que tengo un perfil de usuario, **When** solicito su eliminación desde la configuración, **Then** el perfil debe ser eliminado y ya no usarse en sugerencias o seguimiento.| EP-01   |
+ | TS-69   | Visualización General de Perfiles             | Como usuario, quiero consultar la lista completa de perfiles creados para poder gestionar mi información desde una interfaz de administración.             | Escenario 1: **Given** que tengo múltiples perfiles (o soy administrador), **When** accedo al listado, **Then** debo ver todos los perfiles registrados con sus datos clave.| EP-01   |
+ | TS-70   | Creación de Objetivos                         | Como administrador, quiero crear y gestionar los objetivos generales de salud disponibles en la app para que los usuarios puedan seleccionarlos.          | Escenario 1: **Given** que soy administrador, **When** registro un nuevo objetivo de salud, **Then** debe quedar disponible para ser elegido por usuarios al configurar su perfil.| EP-01   |
+ | TS-71   | Creación de Niveles de Actividad              | Como administrador, quiero definir distintos niveles de actividad física para que los usuarios puedan seleccionar el que mejor se adapte a su estilo.     | Escenario 1: **Given** que soy administrador, **When** creo un nuevo nivel de actividad, **Then** los usuarios podrán seleccionarlo en su perfil personalizado.| EP-01   |
+ | TS-72   | Registro de Alergias                          | Como nutricionista o administrador, quiero registrar nuevas alergias y asociarlas a ingredientes para mejorar la personalización de sugerencias.          | Escenario 1: **Given** que tengo una alergia y sus ingredientes asociados, **When** la registro en el sistema, **Then** quedará disponible para selección en perfiles de usuario.| EP-15   |
+ | TS-73   | Consulta de Alergias Disponibles              | Como usuario, quiero consultar las alergias registradas en la plataforma para marcar las que me afectan.                                                   | Escenario 1: **Given** que estoy completando mi perfil, **When** accedo a la sección de alergias, **Then** debo ver una lista para seleccionar las que aplican a mí.| EP-15   |
+  | TS-74   | Consulta de Niveles de Actividad              | Como usuario, quiero poder consultar los distintos niveles de actividad disponibles para elegir el que se ajuste a mi rutina diaria.                       | Escenario 1: **Given** que estoy personalizando mi perfil, **When** veo la sección de niveles de actividad, **Then** podré elegir el que mejor se alinee a mi estilo de vida.| EP-01   |
+ | TS-75   | Consulta de Objetivos Disponibles             | Como usuario, quiero poder ver todos los objetivos de salud existentes para elegir uno que se alinee con mis metas personales.                            | Escenario 1: **Given** que estoy en el registro o edición de perfil, **When** accedo a los objetivos, **Then** podré seleccionar entre los registrados en la plataforma.| EP-01   |
+| TS-76 | Endpoint de Ajuste de Plan Nutricional | Como desarrollador, quiero un endpoint RESTful que permita actualizar un plan de comida existente para que el usuario pueda ajustar su plan nutricional según sus necesidades. | Escenario: **Given** un `mealPlanId` válido, **When** se invoca `PUT /api/v1/meal-plan/{mealPlanId}`, **Then** el plan se actualiza y responde `200 OK`. | EP-08 |
+| TS-77           | Endpoint de Búsqueda de Recetas       | Como desarrollador, quiero un endpoint RESTful que permita buscar recetas por nombre, ingredientes o tipo, para que los usuarios puedan encontrar fácilmente recetas saludables según sus criterios de búsqueda. | **Escenario:** Given parámetros de búsqueda (`q`, `ingredients`, `type`), when invoco `GET /api/v1/recipes?…`, then la API responde `200 OK` con la lista de recetas que coinciden. | EP-02                     |
+| TS-78           | Gestión de Recipe Types | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener tipos de receta, para gestionar el catálogo de tipos de receta.                         | **Escenario:** Given llamadas a `GET /api/v1/recipetypes`, `POST /api/v1/recipetypes` con payload válido y `GET /api/v1/recipetypes/{recipeTypeId}` con ID existente, When invoco cada endpoint, Then responden con `200 OK` | EP-15                     |
+| TS-79           | Gestión de Ingredients  | Como desarrollador, quiero endpoints RESTful para listar y crear ingredientes, para gestionar el catálogo de ingredientes.                                         | **Escenario:** Given llamadas a `GET /api/v1/ingredients` y `POST /api/v1/ingredients` con payload válido, When invoco cada endpoint, Then responden con `200 OK`             | EP-15                     |
+| TS-80           | Gestión de Categories   | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener categorías, para gestionar el catálogo de categorías de recetas.                         | **Escenario:** Given llamadas a `GET /api/v1/categories`, `POST /api/v1/categories` con payload válido y `GET /api/v1/categories/{categoryId}` con ID existente, When invoco cada endpoint, Then responden con `200 OK`  | EP-15                     |
+| TS-81           | Gestión de Recommendations          | Como desarrollador, quiero endpoints RESTful para crear, actualizar, listar y eliminar recomendaciones, para ofrecer sugerencias personalizadas a los usuarios.    | **Escenario:** Given un payload válido o un `recommendationId` y `userId`, when invoco `POST`, `PUT`, `GET /api/v1/recommendations/user/{userId}` o `DELETE /api/v1/recommendations/{recommendationId}`, then la API responde con el código correspondiente (`201 Created`, `200 OK`. | EP-11                     |
+| TS-82           | Gestión de Recommendation Templates | Como desarrollador, quiero endpoints RESTful para listar y crear plantillas de recomendación, para definir formatos reutilizables de sugerencias nutricionales.     | **Escenario:** Given llamadas a `GET /api/v1/recommendation-templates` y `POST /api/v1/recommendation-templates` con payload válido, when invoco cada endpoint, then la API responde con `200 OK` .                    | EP-11                     |
+| TS-83           | Gestión de Seguimiento Nutricional | Como desarrollador, quiero endpoints RESTful para gestionar el tracking, metas nutricionales, macronutrientes consumidos y entradas de plan de comida, para registrar y analizar la alimentación del usuario. | **Escenario:** Given un `userId` o `trackingId`, when invoco los endpoints `POST /tracking`, `POST /tracking-goals`, `POST /meal-plan-entries/{trackingId}` o `PUT /meal-plan-entries/{mealPlanEntryId}`, then la API responde con `201 Created. | EP-03                     |
+| TS-84           | Consulta de Datos Nutricionales    | Como desarrollador, quiero endpoints RESTful para obtener datos detallados del progreso nutricional del usuario, incluyendo objetivos, historial de consumo y desglose de macronutrientes. | **Escenario:** Given un `trackingId`, `trackingGoalId` o `userId`, when invoco los endpoints , then la API responde con `200 OK` y los datos solicitados.      | EP-03                     |
+
+
+
+
+
+
+
+
+
+
+
 
 #### Épica 1: Gestión de Perfil y Personalización Inicial
 
@@ -1073,7 +1102,7 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | 48 | US-31  | Sincronización con Apps de Salud     | Como usuario, quiero sincronizar mis datos con apps como Google Fit o Apple Health para tener información integrada. | 8  |
 | 49 | US-32  | Visualización de Tendencias          | Como usuario, quiero ver gráficas de evolución nutricional semanal o mensual para analizar mi progreso. | 5        |
 | 50 | US-33  | Comparativa con Objetivos            | Como usuario, quiero comparar mi ingesta diaria con mis objetivos para ajustar mi comportamiento. | 5            |
-| 51 | US-34  | Consejos Personalizados              | Como usuario, quiero recibir consejos según mis datos y hábitos para mejorar mi nutrición.       | 5            |
+| 51 | US-34 | Recibir alertas por incumplimiento diario de objetivos | Como usuario, quiero recibir alertas cuando no cumpla mis objetivos diarios. | 5 |
 | 52 | US-35  | Visualización de Historial           | Como usuario, quiero revisar mis registros anteriores para identificar patrones.                 | 3            |
 | 53 | US-36  | Desafíos Nutricionales               | Como usuario, quiero participar en retos nutricionales para mantenerme motivado.                 | 5            |
 | 54 | US-37  | Recomendaciones por Temporada        | Como usuario, quiero ver recetas o alimentos recomendados según la temporada del año.            | 3            |
@@ -1089,6 +1118,24 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | 64 | US-47  | Tips Rápidos en la Home              | Como usuario, quiero ver tips rápidos de nutrición cada vez que entro para aprender en poco tiempo. | 2        |
 | 65 | US-48  | Estado de Cuenta                     | Como usuario, quiero ver el estado de mi cuenta (plan, vencimiento, suscripción) para mantenerme informado. | 2       |
 | 66 | US-49  | Configuración de Idioma              | Como usuario, quiero cambiar el idioma de la app para usarla en mi idioma nativo.               | 2            |
+| 67    | TS-67   | Edición de Datos del Perfil            | Como usuario, quiero poder editar los datos de mi perfil de salud, incluyendo peso, altura y alergias.                    | 3            |
+| 68    | TS-68   | Eliminación de Perfil                  | Como usuario, quiero eliminar mi perfil de salud en caso de que ya no desee seguir usando funcionalidades personalizadas. | 2            |
+| 69    | TS-69   | Visualización General de Perfiles      | Como usuario, quiero consultar la lista completa de perfiles creados para poder gestionarlos.                             | 2            |
+| 70    | TS-70   | Creación de Objetivos                  | Como administrador, quiero crear y gestionar los objetivos generales de salud disponibles en la app.                      | 3            |
+| 71    | TS-71   | Creación de Niveles de Actividad       | Como administrador, quiero definir distintos niveles de actividad física.                                                  | 3            |
+| 72    | TS-72   | Registro de Alergias                   | Como nutricionista o administrador, quiero registrar nuevas alergias.                                                      | 3            |
+| 73    | TS-73   | Consulta de Alergias Disponibles       | Como usuario, quiero consultar las alergias registradas en la plataforma.                                                  | 2            |
+| 74    | TS-74  | Consulta de Niveles de Actividad       | Como usuario, quiero consultar los niveles de actividad disponibles.                                                       | 2            |
+| 75    | TS-75   | Consulta de Objetivos Disponibles      | Como usuario, quiero consultar los objetivos de salud existentes.                                                          | 2            |
+| 76    | TS-76  | Endpoint de Ajuste de Plan Nutricional  | Como desarrollador, quiero un endpoint RESTful que permita actualizar un plan de comida existente para que el usuario pueda ajustar su plan nutricional según sus necesidades. | 5            |
+| 77     | TS-77 | Endpoint de Búsqueda de Recetas       | Como desarrollador, quiero un endpoint RESTful que permita buscar recetas por nombre, ingredientes o tipo, para que los usuarios puedan encontrar fácilmente recetas saludables según sus criterios de búsqueda. | 5            |
+| 78     | TS-78  | Gestión de Recipe Types       | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener tipos de receta, para gestionar el catálogo de tipos de receta.                         | 5            |
+| 79     | TS-79  | Gestión de Ingredients        | Como desarrollador, quiero endpoints RESTful para listar y crear ingredientes, para gestionar el catálogo de ingredientes.                                         | 5            |
+| 80     | TS-80  | Gestión de Categories         | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener categorías, para gestionar el catálogo de categorías de recetas.                         | 5            |
+| 81     | TS-81  | Gestión de Recommendations          | Como desarrollador, quiero endpoints RESTful para crear, actualizar, listar y eliminar recomendaciones, para ofrecer sugerencias personalizadas a los usuarios.    | 8            |
+| 82     | TS-82  | Gestión de Recommendation Templates | Como desarrollador, quiero endpoints RESTful para listar y crear plantillas de recomendación, para definir formatos reutilizables de sugerencias nutricionales.     | 5            |
+| 83     | TS-83  | Gestión de Seguimiento Nutricional   | Como desarrollador, quiero endpoints RESTful para gestionar el tracking, metas nutricionales, macronutrientes consumidos y entradas de plan de comida, para registrar y analizar la alimentación del usuario. | 8            |
+| 84     | TS-84  | Consulta de Datos Nutricionales      | Como desarrollador, quiero endpoints RESTful para obtener datos detallados del progreso nutricional del usuario, incluyendo objetivos, historial de consumo y desglose de macronutrientes. | 5            |
 
 <hr>
 
@@ -2492,6 +2539,66 @@ En este Sprint, el equipo se enfocó en el desarrollo de una primera versión de
 En esta matriz, se asignaron roles de liderazgo y colaboración para garantizar una comunicación clara y efectiva dentro del equipo, promoviendo la eficiencia en la ejecución de las tareas relacionadas con el alcance del Sprint.
 
 ##### 5.2.3.3. Sprint Backlog 3.
+Esta sección ofrece un resumen del propósito central del sprint, destacando los objetivos planteados y las funcionalidades que se prevé implementar. Se adjunta una captura del tablero del sprint gestionado mediante la herramienta Trello, así como el enlace público para acceder al mismo. Además, se incluye una tabla con las User Stories asignadas, los Work-items o tareas relacionadas, y otras actividades necesarias para alcanzar las metas definidas.
+
+A continuación, se proporciona el enlace de invitación a nuestro tablero de Trello:
+https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d12bd1771aB036B8B2/si730-4328-produck-backlog-grupo-03
+
+| User Story ID | User Story | Work-Item / Task ID | Work-Item / Task Title / Description | Estimation (Hours) | Status |
+|---------------|------------|----------------------|----------------------------------------|---------------------|--------|
+| US-01 | Crear perfil con datos personales | TS219 | Crear endpoint para registro de usuario con datos personales (nombre, edad, sexo, etc.). | 1 | done |
+| US-01 | Crear perfil con datos personales | TS220 | Validar datos personales del usuario antes de guardar en la base de datos. | 0.5 | done |
+| US-03 | Selección de preferencias alimenticias | TS221 | Crear endpoint para almacenar preferencias alimenticias del usuario. | 1 | done |
+| US-03 | Selección de preferencias alimenticias | TS222 | Implementar lógica para filtrar sugerencias basadas en preferencias. | 1 | done |
+| TS-67 | Edición de perfil de usuario | TS223 | Crear endpoint para actualizar altura, peso y alergias del usuario. | 0.5 | done |
+| TS-67 | Edición de perfil de usuario | TS224 | Validar datos ingresados al editar perfil. | 0.5 | done |
+| TS-68 | Eliminación del perfil de usuario | TS225 | Crear endpoint para eliminar perfil de usuario. | 0.5 | done |
+| TS-68 | Eliminación del perfil de usuario | TS226 | Confirmación de eliminación e impacto en datos asociados. | 1 | done |
+| TS-69 | Consulta general de perfiles | TS227 | Crear endpoint para listar perfiles de usuario con filtros. | 0.5 | done |
+| TS-69 | Consulta general de perfiles | TS228 | Definir permisos de acceso a los datos de perfiles. | 0.5 | done |
+| TS-70 | Creación de objetivos de salud | TS229 | Crear endpoint para registrar objetivos de salud. | 0.5 | done |
+| TS-70 | Creación de objetivos de salud | TS230 | Asociar objetivos a usuarios desde su perfil. | 0.5 | done |
+| TS-71 | Creación de niveles de actividad física | TS231 | Crear endpoint para registrar niveles de actividad física. | 0.5 | done |
+| TS-71 | Creación de niveles de actividad física | TS232 | Asociar nivel de actividad al perfil del usuario. | 0.5 | done |
+| TS-72 | Creación de alergias con ingredientes | TS233 | Crear endpoint para registrar alergias con ingredientes asociados. | 1 | done |
+| TS-72 | Creación de alergias con ingredientes | TS234 | Implementar lógica de asociación ingrediente-alergia. | 1 | done |
+| TS-73 | Consulta de alergias registradas | TS235 | Crear endpoint para listar alergias disponibles. | 0.5 | done |
+| TS-73 | Consulta de alergias registradas | TS236 | Implementar búsqueda y paginación en el listado de alergias. | 0.5 | done |
+| TS-74 | Consulta de niveles de actividad | TS237 | Crear endpoint para obtener niveles de actividad física. | 0.5 | done |
+| TS-74 | Consulta de niveles de actividad | TS238 | Validar datos de respuesta para integración con frontend. | 0.5 | done |
+| TS-75 | Consulta de objetivos disponibles | TS239 | Crear endpoint para listar objetivos de salud disponibles. | 0.5 | done |
+| TS-75 | Consulta de objetivos disponibles | TS240 | Estructurar respuesta de API para compatibilidad con selección en frontend. | 0.5 | done |
+| TS-59 | Crear receta vía API | TS241 | Crear endpoint RESTful para crear recetas. | 1 | done |
+| TS-59 | Crear receta vía API | TS242 | Validar ingredientes y valores nutricionales en la creación. | 0.5 | done |
+| TS-76 | Actualizar plan de comida | TS243 | Crear endpoint RESTful para actualizar plan nutricional. | 1 | done |
+| TS-76 | Actualizar plan de comida | TS244 | Validar consistencia de datos y versiones del plan. | 0.5 | done |
+| US-27 | Filtrar recetas por dieta/restricción | TS245 | Implementar filtro de recetas por tipo de dieta y restricciones. | 1 | done |
+| US-27 | Filtrar recetas por dieta/restricción | TS246 | Ajustar UI para mostrar filtros y resultados. | 1 | done |
+| US-29 | Ver valor nutricional de recetas | TS247 | Añadir valores nutricionales por receta (calorías, macros). | 0.5 | done |
+| US-29 | Ver valor nutricional de recetas | TS248 | Mostrar detalles nutricionales en vista de receta. | 0.5 | done |
+| TS-77 | Buscar recetas por nombre, tipo, ingredientes | TS249 | Crear endpoint de búsqueda con parámetros dinámicos. | 1 | done |
+| TS-77 | Buscar recetas por nombre, tipo, ingredientes | TS250 | Optimizar búsqueda por índices en base de datos. | 0.5 | done |
+| TS-78 | Endpoints de tipos de receta | TS251 | Crear endpoints RESTful para listar, crear y obtener tipos de receta. | 1 | done |
+| TS-78 | Endpoints de tipos de receta | TS252 | Validar unicidad y nombre del tipo de receta. | 0.5 | done |
+| TS-79 | Endpoints de ingredientes | TS253 | Crear endpoints RESTful para listar y crear ingredientes. | 1 | done |
+| TS-79 | Endpoints de ingredientes | TS254 | Implementar validaciones de duplicidad y formato. | 0.5 | done |
+| TS-80 | Endpoints de categorías | TS255 | Crear endpoints RESTful para listar, crear y obtener categorías. | 1 | done |
+| TS-80 | Endpoints de categorías | TS256 | Añadir validaciones y estructura para categorías anidadas. | 0.5 | done |
+| TS-81 | CRUD de recomendaciones | TS257 | Crear endpoints RESTful para crear, actualizar, listar y eliminar recomendaciones. | 1 | done |
+| TS-81 | CRUD de recomendaciones | TS258 | Asociar recomendaciones con usuario y condiciones personalizadas. | 1 | done |
+| TS-82 | Plantillas de recomendación | TS259 | Crear endpoints para listar y crear plantillas. | 0.5 | done |
+| TS-82 | Plantillas de recomendación | TS260 | Implementar validaciones y estructura reusable en plantillas. | 0.5 | done |
+| US-35 | Ver distribución de macronutrientes | TS261 | Crear endpoint para visualizar consumo diario de macronutrientes. | 1 | done |
+| US-35 | Ver distribución de macronutrientes | TS262 | Mostrar desglose visual en frontend (gráfico de torta o barras). | 1 | done |
+| TS-83 | Gestión del tracking nutricional | TS263 | Crear endpoints para registrar y consultar macronutrientes consumidos. | 1 | done |
+| TS-83 | Gestión del tracking nutricional | TS264 | Relacionar tracking con metas nutricionales y fechas. | 0.5 | done |
+| TS-84 | Progreso nutricional del usuario | TS265 | Crear endpoint con detalle del progreso nutricional (objetivos, historial). | 1 | done |
+| TS-84 | Progreso nutricional del usuario | TS266 | Añadir desglose de macronutrientes y comparación con metas. | 1 | done |
+
+
+<p align="center">
+  <img src="./imagenes/back.png" alt="swagger1" width="500">
+</p>
 
 ##### 5.2.3.4. Development Evidence for Sprint Review.
 
