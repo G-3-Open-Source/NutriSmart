@@ -2496,7 +2496,20 @@ En esta matriz, se asignaron roles de liderazgo y colaboración para garantizar 
 ##### 5.2.3.4. Development Evidence for Sprint Review.
 
 ##### 5.2.3.5. Execution Evidence for Sprint Review.
+En el desarrollo de este spring se hizo la implementacion de los endpoints con Spring Boot y se terminó de integrar los bounded context del frontend y su posterior despliegue.
 
+<p align="center">
+  <img src="./imagenes/swagger/endpoints1.jpg" alt="swagger1" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/swagger/endpoints2.jpg" alt="swagger2" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/swagger/endpoints3.png" alt="swagger3" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/frontend.png" alt="swagger3" width="750">
+</p>
 ##### 5.2.3.6. Service Documentation Evidence for Sprint Review.
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review.
