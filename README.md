@@ -2557,6 +2557,92 @@ Giorgio es un nutricionista recién egresado que ya atiende pacientes y utiliza 
 
 ##### 5.3.1 Evaluaciones según heuristicas.
 
+#### UX Heuristics & Principles Evaluation  
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Aplicaciones Web  
+**SECCIÓN:** 4328  
+**PROFESORES:** Juan Antonio Flores Moroco  
+**AUDITOR:** NutriVid 
+**CLIENTE(S):** NutriVid
+
+
+
+#### SITE o APP A EVALUAR:  
+**NutriSmart**
+
+
+
+#### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1.   
+2. 
+3. Sección de Seguimiento de Usuario  
+4.   
+5.  
+
+
+
+#### ESCALA DE SEVERIDAD:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: fácilmente superado, no urgente. |
+| 2 | Problema menor: molesto, pero no crítico. Prioridad baja. |
+| 3 | Problema mayor: frecuente o confuso. Prioridad alta. |
+| 4 | Problema muy grave: impide el uso normal. Urgente. |
+
+
+
+#### TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|----------|---------------------|-------------------------------|
+| 1 | Inconsistencias en colores y presentación de textos | 2 | Usability: Consistencia y estándares |
+| 2 | Diseño visual poco pulido | 2 | Usability: Estética y diseño minimalista |
+| 3 | Falta de detalles visuales o animaciones | 2 | Inclusive Design: Proporciona experiencias comparables |
+
+---
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+#### PROBLEMA #1: Inconsistencias en colores y presentación de textos  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Consistencia y estándares  
+**Problema:**  
+Giorgio detectó que los colores no siguen una paleta homogénea y algunos textos no tienen la jerarquía visual esperada, afectando la uniformidad del diseño.
+
+**Recomendación:**  
+Aplicar una guía de estilos coherente (paleta de colores, tipografía, espaciado) que mejore la armonía visual de la plataforma.
+
+---
+
+#### PROBLEMA #2: Diseño visual poco pulido  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Estética y diseño minimalista  
+**Problema:**  
+Aunque la app es funcional, Giorgio percibió que su apariencia es simple y puede parecer poco profesional frente a otras herramientas del mercado.
+
+**Recomendación:**  
+Refinar elementos visuales como márgenes, bordes, íconos, espaciado y proporciones para transmitir mayor calidad visual.
+
+---
+
+#### PROBLEMA #3: Falta de detalles visuales o animaciones  
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables  
+**Problema:**  
+La experiencia fue clara, pero carece de dinamismo. Giorgio considera que detalles como animaciones suaves o retroalimentación visual harían la experiencia más completa.
+
+**Recomendación:**  
+Añadir microinteracciones o animaciones simples (por ejemplo, al guardar cambios, cambiar vistas, etc.) para mejorar el engagement y accesibilidad emocional del diseño.
+
+
+
+
 ## Conclusiones
 
 - Durante el desarrollo de NutriSmart, se ha logró identificar y comprender en profundidad a nuestros segmento objetivo: personas adultas peruanas afectadas por el sobrepeso y la obesidad, personas con objetivos de salud o de simplemente llevar un estilo de vida más saludable. Esta comprensión ha permitido adaptar la aplicación para fomentar hábitos alimenticios saludables de forma práctica, cómoda y accesible, con el fin de mejorar la salud y la calidad de vida de los usuarios.
