@@ -2538,6 +2538,23 @@ Con el objetivo de validar la interfaz desarrollada hasta el momento, se realiza
 
 ##### 5.3.1 Registro de Entrevistas.
 
+# Entrevista #1
+
+<p align="center">
+  <img src="./imagenes/entrevistas/entrevista11.png" alt="Entrevista 11" width="400">
+</p>
+
+Giorgio es un nutricionista recién egresado que ya atiende pacientes y utiliza herramientas como Excel, WhatsApp y apps como Yazio para crear planes, aunque las considera poco eficientes para el seguimiento. Ha usado plataformas similares y tiene experiencia moderada con herramientas de gestión. Al probar NutriSmart, le pareció intuitiva y fácil de usar. La navegación es fluida, los botones y textos cumplen su función, y no necesitó ayuda externa para entender la plataforma. Sin embargo, nota que el diseño puede mejorar, especialmente en la normalización de colores y en la presentación de los textos. Cree que agregar detalles visuales o animaciones haría la experiencia más completa.Estaría dispuesto a recomendar NutriSmart si sigue siendo clara, adaptable y confiable.
+
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Fabrizio Alberto Paredes Santos            |
+| **Entrevistado**  | Giorgio Marzouk Awad Vargas                |
+| **Edad**          | 22 años                                    |
+| **Duración**      | 5:01 minutos                               |
+| **Enlace**        | [Ver entrevista](https://youtu.be/eGj9baLc-h0) |
+
 ##### 5.3.1 Evaluaciones según heuristicas.
 
 ## Conclusiones
