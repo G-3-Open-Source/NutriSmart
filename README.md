@@ -2776,15 +2776,6 @@ Adriano, un joven de 20 años con experiencia en apps de nutrición, encontró e
 
 
 
-
-| Detalle          | Información                                |
-|------------------|--------------------------------------------|
-| **Entrevistador** | Fabrizio Alberto Paredes Santos            |
-| **Entrevistado**  | Giorgio Marzouk Awad Vargas                |
-| **Edad**          | 22 años                                    |
-| **Duración**      | 5:01 minutos                               |
-| **Enlace**        | [Ver entrevista](https://youtu.be/eGj9baLc-h0) |
-
 ##### 5.3.1 Evaluaciones según heuristicas.
 
 #### UX Heuristics & Principles Evaluation  
