@@ -2735,6 +2735,7 @@ Carlos es un nutricionista de 30 años con experiencia previa usando plataformas
 | **Edad**          | 30 años                                      |
 | **Duración**      | 3:43 minutos                                 |
 | **Enlace**        | https://youtu.be/aXDTrkC9b_U|
+### Entrevista #3
 
 <p align="center">
   <img src="./imagenes/entrevistas/entrevistavalidacion3.png" alt="Entrevista 1" width="400">
@@ -2749,6 +2750,27 @@ Ricardo, un joven de 19 años, estudiante universitario con alta familiaridad en
 | **Edad**          | 19 años                                      |
 | **Duración**      | 5 minutos                                 |
 | **Enlace**        | https://youtu.be/-MfKo9DJP4c|
+### Entrevista #4
+<p align="center">
+  <img src="./imagenes/entrevista_validacion.png" alt="Entrevista 1" width="400">
+</p>
+Adriano, un joven de 20 años con experiencia en apps de nutrición, encontró el nuevo frontend intuitivo y bien organizado en formato vertical, valorando la clara diferenciación de secciones por colores y su capacidad responsive en distintos dispositivos. Navegó sin ayuda externa en la mayoría de los casos, aunque resaltó la necesidad de tutoriales o guías integradas para casos puntuales. Como mejoras, propuso incorporar imágenes o iconos, animaciones y confirmaciones visuales que enriquezcan la comprensión y el engagement del usuario, sin eliminar ningún elemento actual, ya que considera que todos cumplen su función.
+
+| Detalle           | Información                                  |
+|-------------------|----------------------------------------------|
+| **Entrevistador** | Héctor Javier Ríos Pacheco                   |
+| **Entrevistado**  | Adriano Vasquéz Rivero                      |
+| **Edad**          | 20 años                                      |
+| **Duración**      | 6:27 minutos                                 |
+| **Enlace**        | https://youtu.be/sDntN0vGzv4|
+
+
+
+
+
+
+
+
 
 ##### 5.3.1 Evaluaciones según heuristicas.
 
