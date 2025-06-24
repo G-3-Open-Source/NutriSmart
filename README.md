@@ -2625,6 +2625,9 @@ En el desarrollo de este spring se hizo la implementacion de los endpoints con S
 <p align="center">
   <img src="./imagenes/frontend.png" alt="swagger3" width="750">
 </p>
+<p align="center">
+  <img src="./imagenes/about.png" alt="swagger3" width="750">
+</p>
 
 
 ##### 5.2.3.6. Service Documentation Evidence for Sprint Review.
