@@ -2736,6 +2736,20 @@ Carlos es un nutricionista de 30 años con experiencia previa usando plataformas
 | **Duración**      | 3:43 minutos                                 |
 | **Enlace**        | https://youtu.be/aXDTrkC9b_U|
 
+<p align="center">
+  <img src="./imagenes/entrevistas/entrevistavalidacion3.png" alt="Entrevista 1" width="400">
+</p>
+
+Ricardo, un joven de 19 años, estudiante universitario con alta familiaridad en el uso de aplicaciones móviles y plataformas digitales, probó el frontend de NutriSmart y lo percibió como una herramienta limpia, intuitiva y fácil de entender. Valoró especialmente la funcionalidad por encima de la estética, destacando la necesidad de accesos rápidos para ajustar sus planes alimenticios. Considera que la aplicación es útil, pero sugiere que podría simplificarse aún más para que sea completamente accesible para personas sin conocimientos nutricionales. Además, recomendó incorporar alertas, integración con apps de salud y un diseño más relajante y adaptado a móviles. Ricardo aprecia los elementos visuales interactivos, siempre que sean sutiles y funcionales, y valora especialmente las soluciones personalizadas que lo ayuden a alcanzar sus metas de bienestar.
+
+| Detalle           | Información                                  |
+|-------------------|----------------------------------------------|
+| **Entrevistador** | Leonardo Fabrizzio Junior Prieto Mantari                   |
+| **Entrevistado**  | Ricardo Alejandro Del Aguila Ayala                      |
+| **Edad**          | 19 años                                      |
+| **Duración**      | 5 minutos                                 |
+| **Enlace**        | https://youtu.be/-MfKo9DJP4c|
+
 ##### 5.3.1 Evaluaciones según heuristicas.
 
 #### UX Heuristics & Principles Evaluation  
