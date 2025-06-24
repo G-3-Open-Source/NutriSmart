@@ -2778,7 +2778,7 @@ Adriano, un joven de 20 años con experiencia en apps de nutrición, encontró e
 **Usability – Inclusive Design – Information Architecture**
 
 **CARRERA:** Ingeniería de Software  
-**CURSO:** Aplicaciones Web  
+**CURSO:** Aplicaciones OpenSource  
 **SECCIÓN:** 4328  
 **PROFESORES:** Juan Antonio Flores Moroco  
 **AUDITOR:** NutriVid 
@@ -2795,11 +2795,12 @@ Adriano, un joven de 20 años con experiencia en apps de nutrición, encontró e
 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
-1.   
-2. 
+1. Explorar planes de comida  
+2. Crear un plan de comida
 3. Sección de Seguimiento de Usuario  
-4.   
-5.  
+4. Gestionar ingredientes
+5. Ver recomendaciones
+6. Administrar recetas
 
 
 
@@ -2818,9 +2819,14 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 | # | Problema | Escala de severidad | Heurística/Principio violado |
 |---|----------|---------------------|-------------------------------|
-| 1 | Inconsistencias en colores y presentación de textos | 2 | Usability: Consistencia y estándares |
-| 2 | Diseño visual poco pulido | 2 | Usability: Estética y diseño minimalista |
-| 3 | Falta de detalles visuales o animaciones | 2 | Inclusive Design: Proporciona experiencias comparables |
+| 1  | Inconsistencias en colores y presentación de textos                                | 2                   | Usability: Consistencia y estándares                        |
+| 2  | Diseño visual poco pulido                                                          | 2                   | Usability: Estética y diseño minimalista                    |
+| 3  | Falta de detalles visuales o animaciones                                          | 2                   | Inclusive Design: Proporciona experiencias comparables      |
+| 4  | No hay botón de regreso al inicio dentro de subpáginas                             | 2                   | Libertad y control del usuario                              |
+| 5  | Falta de mensajes de retroalimentación al agregar o editar                         | 3                   | Visibilidad del estado del sistema                          |
+| 6  | Inconsistencia en idiomas (botón EN/ES no cambia todo el contenido)                | 2                   | Consistencia y estándares                                   |
+| 7  | Botones no siempre indican claramente su acción (p.ej. “Ver Detalle”)              | 1                   | Reconocimiento mejor que recuerdo                           |
+| 8  | Falta de ayuda contextual para nuevas funciones                                    | 1                   | Ayuda y documentación                                       |
 
 ---
 
@@ -2856,6 +2862,55 @@ La experiencia fue clara, pero carece de dinamismo. Giorgio considera que detall
 
 **Recomendación:**  
 Añadir microinteracciones o animaciones simples (por ejemplo, al guardar cambios, cambiar vistas, etc.) para mejorar el engagement y accesibilidad emocional del diseño.
+
+---
+#### PROBLEMA #4: No hay botón de regreso al inicio dentro de subpáginas  
+**Severidad:** 2  
+**Heurística violada:** Dale al usuario el control y la libertad  
+**Problema:**  
+Cuando un usuario navega, por ejemplo, a la vista de ingredientes o planes de comida, no existe un botón claro para volver directamente a la página principal. El menú lateral no siempre está visible ni es obvio para todos los usuarios.  
+**Recomendación:**  
+Agregar un botón visible de **Inicio** o un logo clicable que siempre redirija a la página principal.  
+
+---  
+
+#### PROBLEMA #5: Falta de mensajes de retroalimentación al agregar o editar  
+**Severidad:** 3  
+**Heurística violada:** Visibilidad del estado del sistema  
+**Problema:**  
+Al gestionar ingredientes o planes, no se muestra un mensaje claro de confirmación de que la acción se completó exitosamente o falló. Esto puede generar confusión y errores.  
+**Recomendación:**  
+Agregar notificaciones emergentes (toasts) que confirmen la acción (por ejemplo: “Ingrediente agregado exitosamente”).  
+
+---  
+
+#### PROBLEMA #6: Inconsistencia en idiomas  
+**Severidad:** 2  
+**Heurística violada:** Consistencia y estándares  
+**Problema:**  
+El selector EN/ES no traduce todo el contenido de la página de forma completa y coherente. Algunos textos permanecen en inglés incluso en modo ES.  
+**Recomendación:**  
+Revisar la integración de i18n para que todos los textos estén internacionalizados y mantener coherencia de idioma en toda la experiencia.  
+
+---  
+
+#### PROBLEMA #7: Botones poco descriptivos  
+**Severidad:** 1  
+**Heurística violada:** Reconocer en lugar de recordar  
+**Problema:**  
+Botones como “Ver Detalle” pueden ser ambiguos si hay varios elementos similares. No siempre es claro qué detalle se va a mostrar.  
+**Recomendación:**  
+Agregar un contexto breve: por ejemplo, “Ver Detalle del Plan Keto”.  
+
+---  
+
+#### PROBLEMA #8: Falta de ayuda contextual  
+**Severidad:** 1  
+**Heurística violada:** Ayuda y documentación  
+**Problema:**  
+No existe un apartado de ayuda rápida para explicar funcionalidades, por ejemplo, cómo usar el planificador de comidas o el tracking.  
+**Recomendación:**  
+Incluir iconos de ayuda (?) o un breve tutorial emergente para usuarios nuevos.  
 
 
 
