@@ -2404,6 +2404,8 @@ Tracking_goals Get y Post
 </p>
 
 
+
+
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
 Para nuestro despliegue en el FrontEnd, lo hemos realizado en Firebase.
@@ -2625,9 +2627,6 @@ En el desarrollo de este spring se hizo la implementacion de los endpoints con S
 <p align="center">
   <img src="./imagenes/frontend.png" alt="swagger3" width="750">
 </p>
-<p align="center">
-  <img src="./imagenes/about.png" alt="swagger3" width="750">
-</p>
 
 
 ##### 5.2.3.6. Service Documentation Evidence for Sprint Review.
@@ -2684,6 +2683,18 @@ En el desarrollo de este spring se hizo la implementacion de los endpoints con S
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 ##### 5.2.3.8. Team Colaborators Insights durign Sprint.
+
+Durante esta entrega del proyecto, el equipo mantuvo una coordinación constante en las tareas del backend, aplicando una colaboración efectiva para asegurar un correcto modelado y funcionalidad de nuestra logica de negocio.
+
+**Evidencia del trabajo conjunto:**
+
+La siguiente imagen muestra los commits por integrante, reflejando el involucramiento activo de todos los miembros en el desarrollo del backend:
+
+<p align="center">
+    <img src="imagenes/insights-backend-tb2.png"/>
+</p>
+
+<hr>
 
 #### 5.3. Validation Interviews.
 
@@ -2949,3 +2960,4 @@ Gómez Vega, R. (2024, 7 de octubre). La otra cara de la exitosa comida peruana.
 
 - Deployment Landing: [Landing Deployment](https://g-3-open-source.github.io/landing-page/)
 - Deployment FrontEnd: [FrontEnd Deployment](https://open-source-app-56e02.web.app/)
+- Video About the Product: [Video About The Product](https://youtu.be/I91UHuhaDXo)
