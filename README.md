@@ -1869,8 +1869,17 @@ En el botón de plan de comidas nos redirige a toda la información actual, dond
 #### 4.7.1. Class Diagrams
 
 <p align="center">
-  <img src="./imagenes/class-diagram.png" alt="Class Diagram" width="700">
+  <img src="./imagenes/class-diagram.jpeg alt="Class Diagram" width="700">
 </p>
+
+<p align="center">
+  <img src="./imagenes/BC1.jpeg alt="Class Diagram" width="700">
+</p>
+
+<p align="center">
+  <img src="./imagenes/BC2.jpeg alt="Class Diagram" width="700">
+</p>
+
 
 #### 4.7.2. Class Dictionary
 
@@ -2523,7 +2532,12 @@ En esta matriz, se asignaron roles de liderazgo y colaboración para garantizar 
 Esta sección ofrece un resumen del propósito central del sprint, destacando los objetivos planteados y las funcionalidades que se prevé implementar. Se adjunta una captura del tablero del sprint gestionado mediante la herramienta Trello, así como el enlace público para acceder al mismo. Además, se incluye una tabla con las User Stories asignadas, los Work-items o tareas relacionadas, y otras actividades necesarias para alcanzar las metas definidas.
 
 A continuación, se proporciona el enlace de invitación a nuestro tablero de Trello:
-https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d12bd1771aB036B8B2/si730-4328-produck-backlog-grupo-03
+https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d12bd1771aB036B8B2/si730-4328-produck-backlog-grupo-
+
+
+<p align="center">
+  <img src="./imagenes/back.png" alt="swagger1" width="700">
+</p>
 
 | User Story ID | User Story | Work-Item / Task ID | Work-Item / Task Title / Description | Estimation (Hours) | Status |
 |---------------|------------|----------------------|----------------------------------------|---------------------|--------|
@@ -2577,9 +2591,6 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
 | TS-84 | Progreso nutricional del usuario | TS266 | Añadir desglose de macronutrientes y comparación con metas. | 1 | done |
 
 
-<p align="center">
-  <img src="./imagenes/back.png" alt="swagger1" width="500">
-</p>
 
 ##### 5.2.3.4. Development Evidence for Sprint Review.
 | Repository  | Branch             | Commit ID                              | Commit Message                                                         | Commit Message Body      | Committed on (Date) |
