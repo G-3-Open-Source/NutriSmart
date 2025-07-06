@@ -2662,26 +2662,35 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
 ##### 5.2.3.5. Execution Evidence for Sprint Review.
 En el desarrollo de este spring se hizo la implementacion de los endpoints con Spring Boot y se terminó de integrar los bounded context del frontend y su posterior despliegue.
 
+Endpoints de las recomendaciones al usuario:
 <p align="center">
   <img src="./imagenes/swagger/endpoints1.jpg" alt="swagger1" width="750">
 </p>
+Endpoint de seguimiento de objetivos y registro del plan de comidas.
 <p align="center">
   <img src="./imagenes/swagger/endpoints2.jpg" alt="swagger2" width="750">
 </p>
 <p align="center">
   <img src="./imagenes/swagger/endpoints3.png" alt="swagger3" width="750">
 </p>
+Endpoints del perfil del usuario, sus objetivos, alergias y nivel de actividad en la aplicación.
 <p align="center">
   <img src="./imagenes/swagger/endpoints4.png" alt="swagger3" width="750">
 </p>
+Endpoints de las recetas, ingredientes que son parte de estas y sus categorias.
 <p align="center">
   <img src="./imagenes/swagger/endpoint5.png" alt="swagger5" width="750">
 </p>
 <p align="center">
   <img src="./imagenes/swagger/endpoint5-2.png" alt="swagger5-2" width="750">
 </p>
+Dashboard principal de la aplicación Frontend.
 <p align="center">
   <img src="./imagenes/frontend.png" alt="swagger3" width="750">
+</p>
+Adicionamiento del Video About the Team en la Landing page.
+<p align="center">
+  <img src="./imagenes/about.png" alt="swagger3" width="750">
 </p>
 
 
