@@ -2631,6 +2631,9 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
 | TS-83 | Gestión del tracking nutricional | TS264 | Relacionar tracking con metas nutricionales y fechas. | 0.5 | done |
 | TS-84 | Progreso nutricional del usuario | TS265 | Crear endpoint con detalle del progreso nutricional (objetivos, historial). | 1 | done |
 | TS-84 | Progreso nutricional del usuario | TS266 | Añadir desglose de macronutrientes y comparación con metas. | 1 | done |
+| US-85 | Ver video del equipo de desarrollo             | TS267 | Configurar sección “Sobre nosotros” e integrar reproductor de video en la app.                                         | 7 | done |
+| US-85 | Ver video del equipo de desarrollo             | TS268 | Mantener el video actualizado y con buena calidad de reproducción.                                      | 7 | todo |
+
 
 
 
