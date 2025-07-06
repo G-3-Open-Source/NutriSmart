@@ -840,6 +840,7 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | US-32 | Personalización de Interfaz | Como usuario, quiero personalizar colores y temas de la app para mejorar mi experiencia. | Escenario 1: **Given** que accedo a configuración de apariencia, **When** elijo un tema, **Then** la app aplicará los cambios visualmente. <br><br> Escenario 2: **Given** que restauro valores por defecto, **When** confirmo la acción, **Then** la app volverá al tema original. | EP-08 |
 | US-33 | Feedback de Uso Diario | Como usuario, quiero recibir feedback rápido al final del día sobre mi desempeño nutricional. | Escenario 1: **Given** que termino el día, **When** accedo al resumen diario, **Then** recibiré comentarios personalizados. <br><br> Escenario 2: **Given** que tengo días inconsistentes, **When** recibo feedback, **Then** la app me dará sugerencias específicas de mejora. | EP-09 |
 | US-34 | Alertas de Objetivos No Alcanzados | Como usuario, quiero recibir alertas cuando no cumpla mis objetivos diarios. | Escenario 1: **Given** que no alcanzo un objetivo, **When** se cierra el día, **Then** recibiré una notificación sobre ello. <br><br> Escenario 2: **Given** que desactivo alertas, **When** lo configuro en preferencias, **Then** no recibiré recordatorios de objetivos fallidos. | EP-03 |
+| US-34 | Recibir alertas por incumplimiento diario de objetivos | Como usuario, quiero recibir alertas cuando no cumpla mis objetivos diarios. | Escenario 1: **Given** que no alcanzo un objetivo, **When** se cierra el día, **Then** recibiré una notificación sobre ello. <br><br> Escenario 2: **Given** que desactivo alertas, **When** lo configuro en preferencias, **Then** no recibiré recordatorios de objetivos fallidos. | EP-03 |
 | US-35 | Visualización de Macronutrientes | Como usuario, quiero ver la distribución de macronutrientes diarios que consumo. | Escenario 1: **Given** que registro comidas, **When** accedo a mi resumen diario, **Then** podré ver porcentajes de proteínas, grasas y carbohidratos. <br><br> Escenario 2: **Given** que selecciono un día anterior, **When** consulto macronutrientes, **Then** podré analizar los datos históricos. | EP-04 |
 | US-36 | Ajuste de Notificaciones | Como usuario, quiero personalizar la frecuencia y tipo de notificaciones que recibo. | Escenario 1: **Given** que accedo a configuración de notificaciones, **When** ajusto la frecuencia, **Then** solo recibiré alertas según mis preferencias. <br><br> Escenario 2: **Given** que desactivo todas las notificaciones, **When** confirmo la acción, **Then** dejaré de recibir avisos de la app. | EP-08 |
 | US-37 | Mensajes Motivacionales | Como usuario, quiero recibir mensajes motivacionales diarios para mantenerme enfocado. | Escenario 1: **Given** que activo mensajes motivacionales, **When** inicia el día, **Then** recibiré un mensaje positivo automáticamente. <br><br> Escenario 2: **Given** que desactivo mensajes, **When** cambio configuración, **Then** no recibiré mensajes motivacionales diarios. | EP-03 |
@@ -872,152 +873,191 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | TS-64    | Generación de Reportes de Progreso      | Como desarrollador, quiero crear una funcionalidad que genere reportes de progreso mensuales para que el usuario vea sus avances.       | **Given** que existe un historial de consumo y actividad, **When** se solicita el reporte mensual, **Then** el sistema genera un archivo con gráficos y métricas nutricionales. | EP-15  |
 | TS-65    | Módulo de Recomendaciones Dinámicas     | Como desarrollador, quiero implementar un módulo que actualice las recomendaciones nutricionales automáticamente según los registros del usuario. | **Given** que el usuario ha registrado cambios recientes, **When** accede a las recomendaciones, **Then** el sistema ajusta dinámicamente las sugerencias.                     | EP-15  |
 | TS-66    | Sistema de Notificaciones Personalizadas | Como desarrollador, quiero programar notificaciones personalizadas para recordar a los usuarios sus comidas, metas o revisiones pendientes. | **Given** que el usuario tiene recordatorios configurados, **When** llega la hora o el evento configurado, **Then** el sistema envía una notificación push o correo.           | EP-15  |
+| TS-66    | Sistema de Notificaciones Personalizadas | Como desarrollador, quiero programar notificaciones personalizadas para recordar a los usuarios sus comidas, metas o revisiones pendientes. | **Given** que el usuario tiene recordatorios configurados, **When** llega la hora o el evento configurado, **Then** el sistema envía una notificación push o correo.| EP-15  |
+| TS-67   | Edición de Datos del Perfil                   | Como usuario, quiero poder editar los datos de mi perfil de salud, incluyendo peso, altura y alergias, para mantener mi información actualizada.          | Escenario 1: **Given** que ya tengo un perfil creado, **When** actualizo mi información (peso, altura o alergias), **Then** el sistema debe guardar los nuevos valores.| EP-01   |
+ | TS-68   | Eliminación de Perfil                         | Como usuario, quiero eliminar mi perfil de salud en caso de que ya no desee seguir usando funcionalidades personalizadas.                                  | Escenario 1: **Given** que tengo un perfil de usuario, **When** solicito su eliminación desde la configuración, **Then** el perfil debe ser eliminado y ya no usarse en sugerencias o seguimiento.| EP-01   |
+ | TS-69   | Visualización General de Perfiles             | Como usuario, quiero consultar la lista completa de perfiles creados para poder gestionar mi información desde una interfaz de administración.             | Escenario 1: **Given** que tengo múltiples perfiles (o soy administrador), **When** accedo al listado, **Then** debo ver todos los perfiles registrados con sus datos clave.| EP-01   |
+ | TS-70   | Creación de Objetivos                         | Como administrador, quiero crear y gestionar los objetivos generales de salud disponibles en la app para que los usuarios puedan seleccionarlos.          | Escenario 1: **Given** que soy administrador, **When** registro un nuevo objetivo de salud, **Then** debe quedar disponible para ser elegido por usuarios al configurar su perfil.| EP-01   |
+ | TS-71   | Creación de Niveles de Actividad              | Como administrador, quiero definir distintos niveles de actividad física para que los usuarios puedan seleccionar el que mejor se adapte a su estilo.     | Escenario 1: **Given** que soy administrador, **When** creo un nuevo nivel de actividad, **Then** los usuarios podrán seleccionarlo en su perfil personalizado.| EP-01   |
+ | TS-72   | Registro de Alergias                          | Como nutricionista o administrador, quiero registrar nuevas alergias y asociarlas a ingredientes para mejorar la personalización de sugerencias.          | Escenario 1: **Given** que tengo una alergia y sus ingredientes asociados, **When** la registro en el sistema, **Then** quedará disponible para selección en perfiles de usuario.| EP-15   |
+ | TS-73   | Consulta de Alergias Disponibles              | Como usuario, quiero consultar las alergias registradas en la plataforma para marcar las que me afectan.                                                   | Escenario 1: **Given** que estoy completando mi perfil, **When** accedo a la sección de alergias, **Then** debo ver una lista para seleccionar las que aplican a mí.| EP-15   |
+  | TS-74   | Consulta de Niveles de Actividad              | Como usuario, quiero poder consultar los distintos niveles de actividad disponibles para elegir el que se ajuste a mi rutina diaria.                       | Escenario 1: **Given** que estoy personalizando mi perfil, **When** veo la sección de niveles de actividad, **Then** podré elegir el que mejor se alinee a mi estilo de vida.| EP-01   |
+ | TS-75   | Consulta de Objetivos Disponibles             | Como usuario, quiero poder ver todos los objetivos de salud existentes para elegir uno que se alinee con mis metas personales.                            | Escenario 1: **Given** que estoy en el registro o edición de perfil, **When** accedo a los objetivos, **Then** podré seleccionar entre los registrados en la plataforma.| EP-01   |
+| TS-76 | Endpoint de Ajuste de Plan Nutricional | Como desarrollador, quiero un endpoint RESTful que permita actualizar un plan de comida existente para que el usuario pueda ajustar su plan nutricional según sus necesidades. | Escenario: **Given** un `mealPlanId` válido, **When** se invoca `PUT /api/v1/meal-plan/{mealPlanId}`, **Then** el plan se actualiza y responde `200 OK`. | EP-08 |
+| TS-77           | Endpoint de Búsqueda de Recetas       | Como desarrollador, quiero un endpoint RESTful que permita buscar recetas por nombre, ingredientes o tipo, para que los usuarios puedan encontrar fácilmente recetas saludables según sus criterios de búsqueda. | **Escenario:** Given parámetros de búsqueda (`q`, `ingredients`, `type`), when invoco `GET /api/v1/recipes?…`, then la API responde `200 OK` con la lista de recetas que coinciden. | EP-02                     |
+| TS-78           | Gestión de Recipe Types | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener tipos de receta, para gestionar el catálogo de tipos de receta.                         | **Escenario:** Given llamadas a `GET /api/v1/recipetypes`, `POST /api/v1/recipetypes` con payload válido y `GET /api/v1/recipetypes/{recipeTypeId}` con ID existente, When invoco cada endpoint, Then responden con `200 OK` | EP-15                     |
+| TS-79           | Gestión de Ingredients  | Como desarrollador, quiero endpoints RESTful para listar y crear ingredientes, para gestionar el catálogo de ingredientes.                                         | **Escenario:** Given llamadas a `GET /api/v1/ingredients` y `POST /api/v1/ingredients` con payload válido, When invoco cada endpoint, Then responden con `200 OK`             | EP-15                     |
+| TS-80           | Gestión de Categories   | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener categorías, para gestionar el catálogo de categorías de recetas.                         | **Escenario:** Given llamadas a `GET /api/v1/categories`, `POST /api/v1/categories` con payload válido y `GET /api/v1/categories/{categoryId}` con ID existente, When invoco cada endpoint, Then responden con `200 OK`  | EP-15                     |
+| TS-81           | Gestión de Recommendations          | Como desarrollador, quiero endpoints RESTful para crear, actualizar, listar y eliminar recomendaciones, para ofrecer sugerencias personalizadas a los usuarios.    | **Escenario:** Given un payload válido o un `recommendationId` y `userId`, when invoco `POST`, `PUT`, `GET /api/v1/recommendations/user/{userId}` o `DELETE /api/v1/recommendations/{recommendationId}`, then la API responde con el código correspondiente (`201 Created`, `200 OK`. | EP-11                     |
+| TS-82           | Gestión de Recommendation Templates | Como desarrollador, quiero endpoints RESTful para listar y crear plantillas de recomendación, para definir formatos reutilizables de sugerencias nutricionales.     | **Escenario:** Given llamadas a `GET /api/v1/recommendation-templates` y `POST /api/v1/recommendation-templates` con payload válido, when invoco cada endpoint, then la API responde con `200 OK` .                    | EP-11                     |
+| TS-83           | Gestión de Seguimiento Nutricional | Como desarrollador, quiero endpoints RESTful para gestionar el tracking, metas nutricionales, macronutrientes consumidos y entradas de plan de comida, para registrar y analizar la alimentación del usuario. | **Escenario:** Given un `userId` o `trackingId`, when invoco los endpoints `POST /tracking`, `POST /tracking-goals`, `POST /meal-plan-entries/{trackingId}` o `PUT /meal-plan-entries/{mealPlanEntryId}`, then la API responde con `201 Created. | EP-03                     |
+| TS-84           | Consulta de Datos Nutricionales    | Como desarrollador, quiero endpoints RESTful para obtener datos detallados del progreso nutricional del usuario, incluyendo objetivos, historial de consumo y desglose de macronutrientes. | **Escenario:** Given un `trackingId`, `trackingGoalId` o `userId`, when invoco los endpoints , then la API responde con `200 OK` y los datos solicitados.      | EP-03                     |
+| US-85 | Ver video del equipo de desarrollo | Como usuario, quiero poder ver un video acerca del equipo de desarrollo y su experiencia y desempeño al realizar este proyecto, para entender mejor quiénes están detrás de la aplicación y su trayectoria. | **Escenario:** Given que soy un usuario registrado y he iniciado sesión en la app, when navego a la sección “Sobre nosotros” y pulso el botón “Ver video del equipo”, then se reproducirá un video que presenta al equipo de desarrollo, sus roles, experiencia y contribuciones al proyecto. | EP-07 |
 
 #### Épica 1: Gestión de Perfil y Personalización Inicial
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-01    | Crear perfil personal            |
-| US-02    | Ingresar objetivos de salud       |
-| US-03    | Registrar alergias alimentarias   |
-| US-04    | Seleccionar comidas favoritas     |
-| US-05    | Indicar restricciones dietéticas  |
-| US-43    | Ajustar dieta por enfermedad reciente |
-| US-52    | Acceso a Planes Premium Personalizados |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-01    | Crear perfil personal                                           |
+| US-02    | Ingresar objetivos de salud                                     |
+| US-03    | Registrar alergias alimentarias                                 |
+| US-04    | Seleccionar comidas favoritas                                   |
+| US-05    | Indicar restricciones dietéticas                                |
+| US-43    | Ajustar dieta por enfermedad reciente                           |
+| US-52    | Acceso a Planes Premium Personalizados                          |
+| TS-67   | Edición de Datos del Perfil                                     |
+| TS-68   | Eliminación de Perfil                                           |
+| TS-69   | Visualización General de Perfiles                               |
+| TS-70   | Creación de Objetivos                                           |
+| TS-71   | Creación de Niveles de Actividad                                |
+| TS-74   | Consulta de Niveles de Actividad                                |
+| TS-75   | Consulta de Objetivos Disponibles                               |
 
 #### Épica 2: Planificación y Visualización de Dietas
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-07    | Recibir plan de comidas semanal automático |
-| US-08    | Ver recetas paso a paso          |
-| US-26    | Descargar plan de comidas en PDF |
-| US-38    | Ver vista previa de menús semanales |
-| US-40    | Acceder a historial de dietas anteriores |
-| US-48    | Programar compras con lista automática |
-| US-55    | Ajuste Automático de Plan Nutricional |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-07    | Recibir plan de comidas semanal automático                     |
+| US-08    | Ver recetas paso a paso                                         |
+| US-26    | Descargar plan de comidas en PDF                                |
+| US-38    | Ver vista previa de menús semanales                             |
+| US-40    | Acceder a historial de dietas anteriores                        |
+| US-48    | Programar compras con lista automática                          |
+| US-55    | Ajuste Automático de Plan Nutricional                           |
+| TS-77   | Endpoint de Búsqueda de Recetas                                 |
 
 #### Épica 3: Tracking y Seguimiento Diario
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-10    | Marcar comidas como hechas       |
-| US-12    | Ajustar plan si cambian objetivos |
-| US-13    | Ver resumen semanal de avances   |
-| US-14    | Registrar cambios físicos o emocionales |
-| US-15    | Registrar peso regularmente      |
-| US-21    | Registrar síntomas o efectos físicos |
-| US-34    | Registrar comidas fuera del plan  |
-| US-37    | Visualizar progreso en gráficos   |
-| US-51    | Evaluación de Progreso Nutricional |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-10    | Marcar comidas como hechas                                      |
+| US-12    | Ajustar plan si cambian objetivos                               |
+| US-13    | Ver resumen semanal de avances                                  |
+| US-14    | Registrar cambios físicos o emocionales                         |
+| US-15    | Registrar peso regularmente                                     |
+| US-21    | Registrar síntomas o efectos físicos                            |
+| US-34    | Registrar comidas fuera del plan                                |
+| US-37    | Visualizar progreso en gráficos                                 |
+| US-51    | Evaluación de Progreso Nutricional                              |
+| TS-83   | Gestión de Seguimiento Nutricional                              |
+| TS-84   | Consulta de Datos Nutricionales                                 |
 
 #### Épica 4: Motivación y Gamificación
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-23    | Participar en desafíos semanales |
-| US-24    | Establecer metas a corto plazo   |
-| US-31    | Recibir tips motivacionales      |
-| US-35    | Recibir felicitaciones/logros    |
-| US-50    | Establecer días libres ("cheat days") |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-23    | Participar en desafíos semanales                                |
+| US-24    | Establecer metas a corto plazo                                  |
+| US-31    | Recibir tips motivacionales                                     |
+| US-35    | Recibir felicitaciones/logros                                   |
+| US-50    | Establecer días libres ("cheat days")                           |
 
 #### Épica 5: Notificaciones y Recordatorios Inteligentes
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-06    | Recordatorio de comida |
-| US-16    | Recibir recordatorios de horarios de comida |
-| US-27    | Recibir alertas cuando no se cumple el plan |
-| US-45    | Recibir resumen diario basado en actividad |
-| US-49    | Recibir alertas de dieta desbalanceada |
-| US-53    | Recomendaciones Basadas en Perfil Nutricional |
-| US-54    | Alertas Automáticas de Desviación Nutricional |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-06    | Recordatorio de comida                                         |
+| US-16    | Recibir recordatorios de horarios de comida                    |
+| US-27    | Recibir alertas cuando no se cumple el plan                    |
+| US-45    | Recibir resumen diario basado en actividad                     |
+| US-49    | Recibir alertas de dieta desbalanceada                         |
+| US-53    | Recomendaciones Basadas en Perfil Nutricional                  |
+| US-54    | Alertas Automáticas de Desviación Nutricional                  |
 
 #### Épica 6: Interacción con el Soporte Humano
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-20    | Contactar a un nutricionista     |
-| US-29    | Acceder a foro de comunidad      |
-| US-17    | Guardar recetas favoritas (nutricionista) |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-20    | Contactar a un nutricionista                                   |
+| US-29    | Acceder a foro de comunidad                                    |
+| US-17    | Guardar recetas favoritas (nutricionista)                      |
 
 #### Épica 7: Contenido Educativo y Recursos Adicionales
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-22    | Acceder a contenido educativo de nutrición |
-| US-25    | Acceder a contenido educativo desde home |
-| US-30    | Registrar niveles de energía diarios |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-22    | Acceder a contenido educativo de nutrición                     |
+| US-25    | Acceder a contenido educativo desde home                       |
+| US-30    | Registrar niveles de energía diarios                            |
+| US-85    | Ver video del equipo de desarrollo                             |
 
 #### Épica 8: Adaptabilidad y Flexibilidad del Plan
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-28    | Personalizar horarios de comida  |
-| US-32    | Ajustar plan ante cambios de rutina |
-| US-36    | Definir ritmo de pérdida de peso |
-| US-39    | Cambiar porciones manualmente    |
-| US-41    | Bloquear ingredientes no deseados |
-| US-44    | Recibir recetas rápidas          |
-| US-47    | Sugerencias basadas en ingredientes disponibles |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-28    | Personalizar horarios de comida                                |
+| US-32    | Ajustar plan ante cambios de rutina                            |
+| US-36    | Definir ritmo de pérdida de peso                               |
+| US-39    | Cambiar porciones manualmente                                  |
+| US-41    | Bloquear ingredientes no deseados                              |
+| US-44    | Recibir recetas rápidas                                        |
+| US-47    | Sugerencias basadas en ingredientes disponibles                |
+| TS-76   | Endpoint de Ajuste de Plan Nutricional                         |
 
 #### Épica 9: Funciones Avanzadas de Registro y Conectividad
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-42    | Buscar comidas populares para registro rápido |
-| US-46    | Activar modo offline             |
-| US-33    | Calcular consumo de agua ideal   |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-42    | Buscar comidas populares para registro rápido                  |
+| US-46    | Activar modo offline                                           |
+| US-33    | Calcular consumo de agua ideal                                 |
 
 #### Épica 10: Compartir y Socializar
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-18    | Compartir planes con amigos o familiares |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-18    | Compartir planes con amigos o familiares                       |
 
 #### Épica 11: Optimización Basada en Análisis
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-19    | Recibir recomendaciones basadas en progreso |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-19    | Recibir recomendaciones basadas en progreso                    |
+| TS-81   | Gestión de Recommendations                                    |
+| TS-82   | Gestión de Recommendation Templates                            |
 
 #### Épica 12: Comunicación de Propuesta de Valor
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-10   | Conocer la propuesta de valor |
-| US-12    | Navegar entre secciones desde la barra |
-| US-06    | Ver resumen de beneficios |
-| US-11    | Navegar por los beneficios principales |
-| US-08    | Visualizar testimonios |
-| US-14    | Navegar desde el footer |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-10    | Conocer la propuesta de valor                                  |
+| US-12    | Navegar entre secciones desde la barra                         |
+| US-06    | Ver resumen de beneficios                                      |
+| US-11    | Navegar por los beneficios principales                        |
+| US-08    | Visualizar testimonios                                         |
+| US-14    | Navegar desde el footer                                        |
 
 #### Épica 13: Diseño Responsivo y Experiencia Multidispositivo
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-09    | Acceder desde distintos dispositivos |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-09    | Acceder desde distintos dispositivos                           |
 
 #### Épica 14: Accesos a Plataforma (Login / Registro)
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| US-13    | Acceder al registro o inicio de sesión |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-13    | Acceder al registro o inicio de sesión                         |
 
 #### Épica 15: Gestión Integral de Información Nutricional
 
-| Story ID | Título                          |
-|----------|----------------------------------|
-| TS-56    | Registrar alergia e ingrediente desde API |
-| TS-57    | Registrar recomendaciones desde API |
-| TS-58    | Crear receta desde API |
-| TS-59    | Crear plan de comida desde API |
-| TS-60    | Añadir registro de seguimiento nutricional vía API |
-| TS-61    | Configurar Entorno de Desarrollo |
-| TS-62    | Implementar Endpoint para Registro de Usuari |
-| TS-63    | Generación de Reportes de Progreso |
-| TS-64    | Módulo de Recomendaciones Dinámicas |
-| TS-65    | Sistema de Notificaciones Personalizadas |
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| TS-56    | Registrar alergia e ingrediente desde API                      |
+| TS-57    | Registrar recomendaciones desde API                            |
+| TS-58    | Crear receta desde API                                         |
+| TS-59    | Crear plan de comida desde API                                 |
+| TS-60    | Añadir registro de seguimiento nutricional vía API             |
+| TS-61    | Configurar Entorno de Desarrollo                               |
+| TS-62    | Implementar Endpoint para Registro de Usuario                  |
+| TS-63    | Generación de Reportes de Progreso                             |
+| TS-64    | Módulo de Recomendaciones Dinámicas                            |
+| TS-65    | Sistema de Notificaciones Personalizadas                       |
+| TS-72   | Registro de Alergias                                           |
+| TS-73   | Consulta de Alergias Disponibles                               |
+| TS-78   | Gestión de Recipe Types                                        |
+| TS-79   | Gestión de Ingredients                                        |
+| TS-80   | Gestión de Categories                                         |
 
 ### 3.3. Impact Mapping
 
@@ -1113,6 +1153,8 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | 82     | TS-82  | Gestión de Recommendation Templates | Como desarrollador, quiero endpoints RESTful para listar y crear plantillas de recomendación, para definir formatos reutilizables de sugerencias nutricionales.     | 5            |
 | 83     | TS-83  | Gestión de Seguimiento Nutricional   | Como desarrollador, quiero endpoints RESTful para gestionar el tracking, metas nutricionales, macronutrientes consumidos y entradas de plan de comida, para registrar y analizar la alimentación del usuario. | 8            |
 | 84     | TS-84  | Consulta de Datos Nutricionales      | Como desarrollador, quiero endpoints RESTful para obtener datos detallados del progreso nutricional del usuario, incluyendo objetivos, historial de consumo y desglose de macronutrientes. | 5            |
+| 85     | US-85  | Ver video del equipo de desarrollo | Como usuario, quiero poder ver un video acerca del equipo de desarrollo y su experiencia y desempeño al realizar este proyecto, para entender mejor quiénes están detrás de la aplicación y su trayectoria. | 3 |
+
 
 <hr>
 
