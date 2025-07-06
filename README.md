@@ -417,7 +417,7 @@ Hemos observado que muchos de estos usuarios sienten que los planes ofrecidos no
   <img src="./imagenes/Lean-UX-Canvas.png" alt="Lean UX Canvas" width="850">
 </p>
 
-[Visualizar diseño en Canva](https://www.canva.com/design/DAGlJeSBFYU/vHO916op--9i6YxHpOLG8Q/edit?utm_content=DAGlJeSBFYU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Visualizar diseño en Canva:https://www.canva.com/design/DAGlJeSBFYU/vHO916op--9i6YxHpOLG8Q/edit?utm_content=DAGlJeSBFYU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ### 1.3. Segmentos Objetivos
 ### Segmento Objetivo 1: Jóvenes Adultos
@@ -551,7 +551,7 @@ Jude considera la alimentación como clave para su rendimiento diario y busca me
 | Entrevistado      | Jude Hermoza Quispe            |
 | Edad              | 19 años                                |
 | Duración          | 4:17 minutos                           |
-| Enlace            | [Ver entrevista](https://youtu.be/jBluTCX2H-I) |
+| Enlace            | https://youtu.be/jBluTCX2H-I |
 
 
 <p align="center">
@@ -566,7 +566,7 @@ Ricardo considera la alimentación esencial para una vida saludable y mantiene u
 | Entrevistado      | Ricardo del Aguila Ayala            |
 | Edad              | 19 años                                |
 | Duración          | 5:53 minutos                           |
-| Enlace            | [Ver entrevista](https://youtu.be/WNGR6Hxcyec) |
+| Enlace            | https://youtu.be/WNGR6Hxcyec |
 
 <p align="center">
   <img src="./imagenes/entrevistas/entrevista3.png" alt="entrevista3" width="400">
@@ -581,7 +581,7 @@ Naim considera que la nutrición es clave para todos, no solo para deportistas. 
 | Entrevistado      | Naim napuri Rojas            |
 | Edad              | 19 años                                |
 | Duración          | 4:31 minutos                           |
-| Enlace            | [Ver entrevista](https://youtu.be/PM159qdyitU) |
+| Enlace            | https://youtu.be/PM159qdyitU |
 
 
 
@@ -599,7 +599,7 @@ Giorgio es un nutricionista recién egresado que ya atiende pacientes y valora m
 | **Entrevistado**  | Giorgio Marzouk Awad Vargas                |
 | **Edad**          | 22 años                                    |
 | **Duración**      | 5:10 minutos                               |
-| **Enlace**        | [Ver entrevista](https://youtu.be/2t0KyeJOKvE) |
+| **Enlace**        | https://youtu.be/2t0KyeJOKvE |
 
 # Entrevista #5
 
@@ -756,7 +756,7 @@ Para construir el escenario As-Is, el equipo identificó los cinco pasos clave q
   <img src="./imagenes/As-Is Scenario Map User 2.png" alt="As-Is Scenario Map 2" width="700">
 </p>
 
-[Visualizar As-Is Scenario Mapping](https://miro.com/app/board/uXjVIALnKsE=/?share_link_id=880694224194)
+Visualizar As-Is Scenario Mapping: https://miro.com/app/board/uXjVIALnKsE=/?share_link_id=880694224194
 
 ### 2.4. Ubiquitous Language
 
@@ -800,7 +800,7 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
   <img src="./imagenes/Scenario Map To-Be User 2.png" alt="To-Be Scenario Map 2" width="700">
 </p>
 
-[Visualizar To-Be Scenario Mapping](https://miro.com/app/board/uXjVIALu3iU=/?share_link_id=13046513899)
+Visualizar To-Be Scenario Mapping: https://miro.com/app/board/uXjVIALu3iU=/?share_link_id=13046513899
 
 ### 3.2. User Stories
 
@@ -1790,7 +1790,7 @@ Se muestra el plan de comidas  y como se puede acceder al menu del día, además
   <img src="./imagenes/wireframes/Diapositiva 13.PNG" alt="Diapositiva 12" width="700">
 </p>
 
-[Visualizar Wireframes](https://www.figma.com/design/KWitz9XDY9535vAPW8lKwQ/wireframes-open?node-id=0-1&t=h91ByfffqyVCYW4X-1)
+Visualizar Wireframes: https://www.figma.com/design/KWitz9XDY9535vAPW8lKwQ/wireframes-open?node-id=0-1&t=h91ByfffqyVCYW4X-1
 
 #### 4.4.3. Web Applications Mock-ups
 Se comienza con la pantalla de bienvenida donde nos da el inicio del proceso. Luego nos redirige a un apartado para iniciar sesió o registrarnos, en caso de tneer una cuenta ingresamos.
@@ -1846,7 +1846,7 @@ La última opción es "Plan de Comidas" donde se podrá ver detalladaamente el p
 <p align="center">
   <img src="./imagenes/mockups/mockups13.png" alt="Context Diagram" width="850">
 </p>
-[Visualizar Mock-ups](https://www.figma.com/design/TkYxU9SsbzOMjkQ9CICbZj/Untitled?t=D5G1DDhUzIfRsUZ5-1)
+Visualizar Mock-ups: https://www.figma.com/design/TkYxU9SsbzOMjkQ9CICbZj/Untitled?t=D5G1DDhUzIfRsUZ5-1
 
 #### 4.4.4. Web Applications User Flow Diagrams
 La aplicación inicia en la pantalla luego de instalar la app donde de manera inmediata nos redire a la pantalla de de registro o inicio de sesión donde podemos hacer login con correo y contraseña o con google o facebook. En caso de registrarnos presionaremos en el botón donde tendremos que registrar todos nuestros datos, objetivos, restricciones de dieta y preferencias.
@@ -1871,14 +1871,14 @@ En el botón de plan de comidas nos redirige a toda la información actual, dond
   <img src="./imagenes/mockups/flows 2.png" alt="Context Diagram" width="700">
 </p>
 
-[Visualizar User Flow Diagrams](https://www.figma.com/design/TkYxU9SsbzOMjkQ9CICbZj/Untitled?t=D5G1DDhUzIfRsUZ5-1)
+Visualizar User Flow Diagrams: https://www.figma.com/design/TkYxU9SsbzOMjkQ9CICbZj/Untitled?t=D5G1DDhUzIfRsUZ5-1
 
 ### 4.5. Web Applications Prototyping
 <p align="center">
   <img src="./imagenes/prototipo.png" alt="Context Diagram" width="700">
 </p>
 
-[Video del prototipo](https://youtu.be/GbC9_aU_WrU)
+Video del prototipo: https://youtu.be/GbC9_aU_WrU
 
 ### 4.6. Domain-Driven Software Architecture
 
@@ -2379,32 +2379,32 @@ Durante la realización de este sprint se logró elaborar los CRUDS correspondie
   <img src="./imagenes/bounded-context-recommendation.png" alt="Trello" width="750">
 </p>
 
-- Front End : [Front End Deployment](https://bounded-context-recommendation.web.app/nutrismart/recommendation)
+- Front End : https://bounded-context-recommendation.web.app/nutrismart/recommendation
 
 <p align="center">
   <img src="./imagenes/deployFabri.png" alt="Trello" width="750">
 </p>  
 
-- Front End : [Front End Deployment](https://tracking-bounded-context.web.app/trackinggoals/trackinggoals-management)
+- Front End : https://tracking-bounded-context.web.app/trackinggoals/trackinggoals-management
 
 <p align="center">
   <img src="./imagenes/deployHector.png" alt="Trello" width="750">
 </p> 
 
-- Front End : [Front End Deployment](https://ingredientscrud-73b60.web.app/ingredients/ingredients)
+- Front End :https://ingredientscrud-73b60.web.app/ingredients/ingredients
 
 <p align="center">
   <img src="./imagenes/deployJorge.png" alt="Trello" width="750">
 </p>   
 
 
-- Front End : [Front End Deployment](https://frontend-app-cd1e8.web.app/meal-plan)
+- Front End : https://frontend-app-cd1e8.web.app/meal-plan
 
 <p align="center">
   <img src="./imagenes/deployLeonardo.png" alt="Trello" width="750">
 </p>   
 
-- Front End : [Front End Deployment](https://recetas-crud.web.app/)
+- Front End : https://recetas-crud.web.app/
 #### 5.2.2.6
 Durante este sprint, se avanzó significativamente en la implementación de los primeros servicios web necesarios para la funcionalidad básica del Front End. Se desarrollaron e integraron operaciones CRUD que permiten la interacción con los datos de manera dinámica. Esta sección resume los logros alcanzados en relación con la documentación técnica de estos servicios, detallando su estructura, endpoints, métodos utilizados y la forma en que se conectan con la interfaz de usuario. Estos avances marcan un paso importante en la transición desde una interfaz estática hacia una aplicación funcional y orientada al usuario.
 
@@ -2805,7 +2805,7 @@ Giorgio es un nutricionista recién egresado que ya atiende pacientes y utiliza 
 | **Entrevistado**  | Giorgio Marzouk Awad Vargas                |
 | **Edad**          | 22 años                                    |
 | **Duración**      | 5:01 minutos                               |
-| **Enlace**        | [Ver entrevista](https://youtu.be/eGj9baLc-h0) |
+| **Enlace**        | https://youtu.be/eGj9baLc-h0 |
 
 ### Entrevista #2
 
@@ -3014,6 +3014,6 @@ Gómez Vega, R. (2024, 7 de octubre). La otra cara de la exitosa comida peruana.
 
 ## Anexos
 
-- Deployment Landing: [Landing Deployment](https://g-3-open-source.github.io/landing-page/)
-- Deployment FrontEnd: [FrontEnd Deployment](https://open-source-app-56e02.web.app/)
-- Video About the Product: [Video About The Product](https://youtu.be/I91UHuhaDXo)
+- Deployment Landing: https://g-3-open-source.github.io/landing-page/
+- Deployment FrontEnd: https://open-source-app-56e02.web.app/
+- Video About the Product: https://youtu.be/I91UHuhaDXo
