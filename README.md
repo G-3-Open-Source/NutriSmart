@@ -2915,6 +2915,10 @@ Adicionamiento del Video About the Team en la Landing page.
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
+
+####FALTA###############################################################################################################
+
+
 ##### 5.2.3.8. Team Colaborators Insights durign Sprint.
 
 Durante esta entrega del proyecto, el equipo mantuvo una coordinación constante en las tareas del backend, aplicando una colaboración efectiva para asegurar un correcto modelado y funcionalidad de nuestra logica de negocio.
@@ -2928,6 +2932,74 @@ La siguiente imagen muestra los commits por integrante, reflejando el involucram
 </p>
 
 <hr>
+
+#### 5.2.4. Sprint 4
+##### 5.2.4.1. Sprint Planning 4
+El propósito de este cuarto sprint es consolidar y solucionar las observaciones pendientes que nos comentó el profesor, y concluir con la construcción funcional de la aplicación. Nos enfocaremos en implementar los ajustes finales y optimizar nuestro frontend desarrollado durante todo el proyecto, así como conectar el backend con el frontend, incorporandolo mediante un despligue. Esto permitirá terminar la implementación de la aplicación en su totalidad.
+
+| **Sprint #**                   | Sprint 4                                                                                                                                                                                                                                        |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                   |
+| **Date**                       | 6/07/2025                                                                                                                                                                                                                                        |
+| **Location**                   | El desarrollo de la reunión se realizó virtualmente por medio de Discord                                                                                                                                                                          |
+| **Prepared By**                | Paredes, Fabrizio / Ríos, Héctor / Prieto, Leonardo / Rodriguez, Sebastian / Linares, Jorge                                                                                                                                                       |
+| **Sprint 4 Review Summary**    | Se ha mejorado varios puntos con respecto al reporte según las observaciones que mencionó el profesor. Además, se concretaron los últimos ajustes al frontend y backend, logrando su unión y despliegue total.                                                                               |
+| **Sprint 4 Retrospective Summary** | Hubo un correcto progreso respecto al proyecto y de manera grupal, aunque con algunas posibles mejoras posteriores se avanzó como se esperaba. Consideramos que nuestro frontend y backend cumple con lo esperado.                      |
+| **Sprint 4 Goal**              | Nuestra prioridad en este sprint es la culminación del reporte, frontend y backend. Añadiendo validaciones entre bounded context y desplegando el backend y frontend unidos. Creemos que esto podrá brindar la totalidad de funcionalidades que posee nuestra propuesta. Esto se confirmará cuando nuestro frontend y backend estén desplegados y conectados. |
+| **Sprint 4 Velocity**          |   Se estimarón un total de                                                                                                                                                                                                                                                 |
+| **Sum of Story Points**        |      Nuestro equipo alcanzó                                                                                                                                                                                                                                                |
+
+
+##### 5.2.4.2. Aspect Leaders and Collaborators
+
+Durante este Sprint, el equipo se centró en consolidar las observaciones realizadas previamente, conectar de forma definitiva el frontend con el backend y concluir con el despliegue funcional de la aplicación. Como parte de esta etapa final, se realizó la integración total del frontend en una sola vista principal, se mejoró visualmente la interfaz, y se fortaleció el diseño del backend mediante la aplicación del enfoque DDD (Domain-Driven Design) con sus respectivos bounded contexts. Además, se ejecutó la conexión efectiva entre el backend y frontend a través del despliegue.
+
+A continuación, se presenta la matriz Leadership-and-Collaboration Matrix (LACX), en la cual se detallan los roles de liderazgo (L) y colaboración (C) asumidos por cada miembro del equipo en los aspectos clave desarrollados durante este Sprint:
+
+| **Team Member**       | **GitHub Username** | **Backend Component Development** <br> Leader (L)/Collaborator(C) | **Visual improvement to the frontend** <br> Leader (L)/Collaborator(C) | **Frontend Integration** <br> Leader (L)/Collaborator(C) | **Backend Integration** <br> Leader (L)/Collaborator(C) |
+|:---------------------:|:-------------------:|:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|
+| Rodriguez, Sebastian                | Shiftinnnnn          | C                                | C                          |             C                      |               L                   |
+| Linares, Jorge                      | jlinares30          | L                                | C                          | L                      |               C                    |
+| Rios, Hector                        | Khafna09             | C                                | C                          | L                      |               C                   |
+| Prieto, Leonardo                    | Wuux1             | C                                | L                          | C                      |               C                    |
+| Paredes, Fabrizio                   | psfa29            | L                                | C                          | C                      |               L               |
+
+
+En esta matriz, se asignaron roles de liderazgo y colaboración para garantizar una comunicación clara y efectiva dentro del equipo, promoviendo la eficiencia en la ejecución de las tareas relacionadas con el alcance del Sprint.
+
+##### 5.2.4.3. Sprint Backlog 4.
+
+
+
+
+
+
+
+##### 5.2.4.4. Development Evidence for Sprint Review.
+   
+
+##### 5.2.4.5. Execution Evidence for Sprint Review.
+
+
+
+
+##### 5.2.4.6. Service Documentation Evidence for Sprint Review.
+
+
+
+##### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+
+
+
+
+##### 5.2.4.8. Team Colaborators Insights durign Sprint.
+
+
+
+
+
+-
 
 #### 5.3. Validation Interviews.
 
@@ -3169,6 +3241,7 @@ Agregar un contexto breve: por ejemplo, “Ver Detalle del Plan Keto”.
 No existe un apartado de ayuda rápida para explicar funcionalidades, por ejemplo, cómo usar el planificador de comidas o el tracking.  
 **Recomendación:**  
 Incluir iconos de ayuda (?) o un breve tutorial emergente para usuarios nuevos.  
+
 
 
 #### 5.4. Video About-the-Product
