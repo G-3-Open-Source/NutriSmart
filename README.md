@@ -2968,11 +2968,38 @@ A continuación, se presenta la matriz Leadership-and-Collaboration Matrix (LACX
 En esta matriz, se asignaron roles de liderazgo y colaboración para garantizar una comunicación clara y efectiva dentro del equipo, promoviendo la eficiencia en la ejecución de las tareas relacionadas con el alcance del Sprint.
 
 ##### 5.2.4.3. Sprint Backlog 4.
+En este apartado se presenta, de manera concisa, la finalidad central del Sprint 4, poniendo énfasis en los objetivos definidos y en las nuevas funcionalidades que se implementarán. A continuación, se mostrará una imagen del tablero de Trello correspondiente al Sprint 4 junto con su enlace público para consulta. Finalmente, se incluye una tabla que especifica las User Stories asignadas a este sprint, los Work‑Items o tareas vinculadas, y las actividades complementarias necesarias para alcanzar las metas propuestas.
+
+Este es nuestro link de invitación a nuestro Trello:
+
+https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d12bd1771aB036B8B2/si730-4328-produck-backlog-grupo-03
+
+<p align="center">
+  <img src="./imagenes/back4.png" alt="Entrevista 11" width="650">
+</p>
 
 
 
-
-
+| User Story ID | User Story                                                                                           | Work-Item / Task ID | Work-Item / Task Title / Description                                                          | Estimation (Hours) | Status |
+|---------------|------------------------------------------------------------------------------------------------------|---------------------|------------------------------------------------------------------------------------------------|---------------------|--------|
+| US-22         | Control de Sesiones Activas<br>Como usuario, quiero ver y cerrar mis sesiones activas para mayor seguridad. | TS-269              | Crear endpoint para listar sesiones activas del usuario.                                        | 1                   | todo   |
+| US-22         | Control de Sesiones Activas<br>Como usuario, quiero ver y cerrar mis sesiones activas para mayor seguridad. | TS-270              | Implementar lógica de cierre de sesión y revocación de tokens.                                  | 2                   | todo   |
+| US-22         | Control de Sesiones Activas<br>Como usuario, quiero ver y cerrar mis sesiones activas para mayor seguridad. | TS-271              | Validar seguridad y permisos para visualizar/cerrar sesiones.                                   | 1                   | todo   |
+| US-22         | Control de Sesiones Activas<br>Como usuario, quiero ver y cerrar mis sesiones activas para mayor seguridad. | TS-272              | Documentar API de sesiones activas y cierre (OpenAPI/Swagger).                                  | 1                   | todo   |
+| US-28         | Favoritos de Recetas<br>Como usuario, quiero guardar recetas favoritas.                                | TS-274              | Crear endpoint para agregar/quitar recetas de favoritos.                                        | 1                   | todo   |
+| US-28         | Favoritos de Recetas<br>Como usuario, quiero guardar recetas favoritas.                                | TS-275              | Crear endpoint para listar recetas favoritas del usuario.                                       | 0.5                 | todo   |
+| TS-58         | Crear Receta mediante API RESTful<br>Como desarrollador, quiero crear una receta mediante la API para que los usuarios puedan acceder a preparaciones personalizadas. | TS-277              | Diseñar contrato y especificación del endpoint POST /api/recetas.                               | 1                   | todo   |
+| TS-58         | Crear Receta mediante API RESTful<br>Como desarrollador, quiero crear una receta mediante la API para que los usuarios puedan acceder a preparaciones personalizadas. | TS-278              | Implementar controlador y rutas para creación de recetas.                                        | 2                   | todo   |
+| TS-58         | Crear Receta mediante API RESTful<br>Como desarrollador, quiero crear una receta mediante la API para que los usuarios puedan acceder a preparaciones personalizadas. | TS-279              | Validar datos de entrada (ingredientes, valores nutricionales).                                 | 1                   | todo   |
+| TS-62         | Implementar Endpoint para Registro de Usuario<br>Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema. | TS-282              | Implementar controlador y rutas para registro de usuario.                                       | 2                   | todo   |
+| TS-62         | Implementar Endpoint para Registro de Usuario<br>Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema. | TS-283              | Validar input (correo, contraseña, datos personales).                                           | 1                   | todo   |
+| TS-64         | Módulo de Recomendaciones Dinámicas<br>Como desarrollador, quiero implementar un módulo que actualice las recomendaciones nutricionales automáticamente según los registros del usuario. | TS-287              | Integrar el módulo con la base de datos y los endpoints existentes.                              | 2                   | todo   |
+| TS-64         | Módulo de Recomendaciones Dinámicas<br>Como desarrollador, quiero implementar un módulo que actualice las recomendaciones nutricionales automáticamente según los registros del usuario. | TS-288              | Escribir pruebas end-to-end para validar el flujo de recomendaciones dinámicas.                 | 1                   | todo   |
+| US-33         | Comparativa con Objetivos<br>Como usuario, quiero comparar mi ingesta diaria con mis objetivos para ajustar mi comportamiento. | TS-289              | Crear endpoint para obtener ingesta diaria y objetivos del usuario.                             | 1                   | todo   |
+| US-33         | Comparativa con Objetivos<br>Como usuario, quiero comparar mi ingesta diaria con mis objetivos para ajustar mi comportamiento. | TS-291              | Diseñar respuesta API con datos de comparativa (porcentaje, diferencias).                       | 1                   | todo   |
+| US-33         | Comparativa con Objetivos<br>Como usuario, quiero comparar mi ingesta diaria con mis objetivos para ajustar mi comportamiento. | TS-292              | Crear endpoint/servicio para proveer datos listos para visualización en frontend.               | 1                   | todo   |
+| US-85         | Ver video del equipo de desarrollo<br>Como usuario, quiero poder ver un video acerca del equipo de desarrollo y su experiencia y desempeño al realizar este proyecto, para entender mejor quiénes están detrás de la aplicación y su trayectoria. | TS-293              | Crear sección “Sobre nosotros” en la landing page e integrar reproductor de video.                        | 1                   | todo   |
+| US-85         | Ver video del equipo de desarrollo<br>Como usuario, quiero poder ver un video acerca del equipo de desarrollo y su experiencia y desempeño al realizar este proyecto, para entender mejor quiénes están detrás de la aplicación y su trayectoria. | TS-295              | Validar compatibilidad y calidad de reproducción en distintos dispositivos y navegadores.       | 1                   | todo   |
 
 
 ##### 5.2.4.4. Development Evidence for Sprint Review.
