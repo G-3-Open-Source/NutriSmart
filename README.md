@@ -194,7 +194,7 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 
 | <div style="width:150px">Criterio específico</div> | <div style="width:250px">Acciones Realizadas</div> | <div style="width:250px">Conclusiones</div> |
 |-------------------|-------------------|------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. **TP1:** Realicé el Bounded context de tracking y tracking goals, además de las correcciones del tb1 **TB2:** Realicé el backend para el bounded context de Tracking, realicé una entrevista para el segmento objetivo de nutricionista e hice la evaluación según heuristicas de mi entrevista.**TF:** Realicé los refinamientos de mi backend y frontend. Además, hice el aspect leaders and collaborators y el sprint 4.                                             <br><br> **Héctor Ríos TB1:** Realicé la sección del startup profile, solution profile y segmentos objetivo dentro del capítulo I. Asimismo, la sección de competidores y las entrevistas correspondientes al primer segmento. Además, participé en la elaboración de los wireframes y mockups anterior al prototipo.**Héctor Ríos TP:** Realicé las correciones de las observaciones señaladas del profesor, así como el desarrollo de mi Crud correspondiente y su deploy **Héctor Ríos TB2:** En esta entrega realicé la cosntrucción de mi backend mediante la realización de endpoints. Además, elaboré el sprint backelog 3, el development evidence for sprint review, mi sección sobre el vídeo about the team y actualización de recursos **Héctor Ríos TF:** Realicé los refinamientos de mi backend y frontend, además de agregar y actualizar nuevos recursos en la landing page. <br><br> **Sebastian Rodriguez TB1:** Realicé la seccion de Information Architecture, en el desarrollo del Landing Page y en realizar los Landing Page Wirframe y una entrevista para el segmento de nutricionista. **TP1:** Realicé una vista del front-end para el apartado de Recommendations y correcciones.  **TB2:** Realicé Bounded Context  recommendations para el backend y modelado en el diagrama UML en Lucidchart, video about the team, about the product, entrevista de validación según la heuristica e insights del sprint 3 <br><br> **Leonardo Prieto TB1:** Realicé toda la sección del Needfinding, en esto se encuentra, el User Persona, User Task Matrix, User journey map, Empathy Map y el As-Is Scenario Map. También realicé el Ubiquitous Language y por ultimo hice todo el capitulo III. **TP1:** Realicé las mejoras solicitadas a lo anterior, una vista del front-end para el apartado de Recetas y el Sprint Backlog 2 con el Trello. **TB2:** Realicé el backend para el bounded context de recetas e ingredientes, me grabe para el video about-the-team, una entrevista de validación, el diseño de entrevistas y apoye para todo el sprint 3. <br><br> **Jorge Linares TB1:** Realicé toda la sección de los diagramas de contexto, componentes, contenedores, clases y base de datos. Elaboracion de la primera parte de la landing page y despliegue de la misma en github pages, de esta forma completando la parte final del informe del sprint numero 1 y todas las evidencias del trabajo colaborativo del equipo en los repositorios de github.| **TB1:** Como conclusión para esta presentación, cada integrante cumplió con sus actividades en el tiempo y participó activamente en las reuniones, manteniendo una correcta comunicación, dando como resultado en este avance una base sólida para continuar el proyecto. **TP:** Como conclusión para esta presentación, cada integrante realizó sus partes correspondientes así como sus correcciones, manteniendo así el objetivo del proyecto. **TB2:** Como conclusión nos desempeñamos bien como grupo, manteniendo una comunicación rápida y cosntante, realizando una entrega satisfactoria. **TF:** Finalmente en esta entrega concluimos con el perfeccionamiento de las anteriores entregas, comunicándonos activamente y realizando reuniones periódicamente.|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. **TP1:** Realicé el Bounded context de tracking y tracking goals, además de las correcciones del tb1 **TB2:** Realicé el backend para el bounded context de Tracking, realicé una entrevista para el segmento objetivo de nutricionista e hice la evaluación según heuristicas de mi entrevista.**TF:** Realicé los refinamientos de mi backend y frontend. Además, hice el aspect leaders and collaborators y el sprint 4.                                             <br><br> **Héctor Ríos TB1:** Realicé la sección del startup profile, solution profile y segmentos objetivo dentro del capítulo I. Asimismo, la sección de competidores y las entrevistas correspondientes al primer segmento. Además, participé en la elaboración de los wireframes y mockups anterior al prototipo.**Héctor Ríos TP:** Realicé las correciones de las observaciones señaladas del profesor, así como el desarrollo de mi Crud correspondiente y su deploy **Héctor Ríos TB2:** En esta entrega realicé la cosntrucción de mi backend mediante la realización de endpoints. Además, elaboré el sprint backelog 3, el development evidence for sprint review, mi sección sobre el vídeo about the team y actualización de recursos **Héctor Ríos TF:** Realicé los refinamientos de mi backend y frontend, además de agregar y actualizar nuevos recursos en la landing page. <br><br> **Sebastian Rodriguez TB1:** Realicé la seccion de Information Architecture, en el desarrollo del Landing Page y en realizar los Landing Page Wirframe y una entrevista para el segmento de nutricionista. **TP1:** Realicé una vista del front-end para el apartado de Recommendations y correcciones.  **TB2:** Realicé Bounded Context  recommendations para el backend y modelado en el diagrama UML en Lucidchart, video about the team, about the product, entrevista de validación según la heuristica e insights del sprint 3 **TF1:** Realicé las correcciones en el backend de Recommendations, además hice la conexión del front-end y el back-end para mi bounded context. <br><br> **Leonardo Prieto TB1:** Realicé toda la sección del Needfinding, en esto se encuentra, el User Persona, User Task Matrix, User journey map, Empathy Map y el As-Is Scenario Map. También realicé el Ubiquitous Language y por ultimo hice todo el capitulo III. **TP1:** Realicé las mejoras solicitadas a lo anterior, una vista del front-end para el apartado de Recetas y el Sprint Backlog 2 con el Trello. **TB2:** Realicé el backend para el bounded context de recetas e ingredientes, me grabe para el video about-the-team, una entrevista de validación, el diseño de entrevistas y apoye para todo el sprint 3. **TF:** Realicé las correcciones dadas por el docente, tambien reforce mi backend implementando ACL y haciendo la conexión con el frontend exitosamente. <br><br> **Jorge Linares TB1:** Realicé toda la sección de los diagramas de contexto, componentes, contenedores, clases y base de datos. Elaboracion de la primera parte de la landing page y despliegue de la misma en github pages, de esta forma completando la parte final del informe del sprint numero 1 y todas las evidencias del trabajo colaborativo del equipo en los repositorios de github.| **TB1:** Como conclusión para esta presentación, cada integrante cumplió con sus actividades en el tiempo y participó activamente en las reuniones, manteniendo una correcta comunicación, dando como resultado en este avance una base sólida para continuar el proyecto. **TP:** Como conclusión para esta presentación, cada integrante realizó sus partes correspondientes así como sus correcciones, manteniendo así el objetivo del proyecto. **TB2:** Como conclusión nos desempeñamos bien como grupo, manteniendo una comunicación rápida y cosntante, realizando una entrega satisfactoria. **TF:** Finalmente en esta entrega concluimos con el perfeccionamiento de las anteriores entregas, comunicándonos activamente y realizando reuniones periódicamente.|
 
 
 
@@ -2695,6 +2695,8 @@ Adicionamiento del Video About the Team en la Landing page.
 <p align="center">
   <img src="./imagenes/activity_post.png" alt="swagger3" width="600">
 </p>
+
+
 ### Favorite Recipes
 
 | Endpoint                                    | Acción                               | Método HTTP | Sintaxis de llamada                | Parámetros                | Ejemplo de Response                          | URL Documentación  |
@@ -2709,6 +2711,8 @@ Adicionamiento del Video About the Team en la Landing page.
 <p align="center">
   <img src="./imagenes/favoriteRecipe_post.png" alt="swagger3" width="600">
 </p>
+
+
 ### Recipes & Related
 
 | Endpoint                                                   | Acción                          | Método HTTP | Sintaxis de llamada                          | Parámetros                                                                 | Ejemplo de Response                                                                                              | URL Documentación  |
@@ -2814,11 +2818,6 @@ Adicionamiento del Video About the Team en la Landing page.
 </p>
 
 
-
-
-
-
-
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 
@@ -2922,27 +2921,288 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
 | NutriSmart | develop          | 81ddb15eda08111c61cc1ac7a037bce28c517e8 | feat: updating sprint backlog 3                                          | No description provided.                                     | 2025-07-05          |
 | NutriSmart | develop          | 3210584d5a6039681d3dbb9a952bbf3d84dc7560 | feat: updating US and product backlog                                   | No description provided.                                     | 2025-07-05          |
 
-   
 
 ##### 5.2.4.5. Execution Evidence for Sprint Review.
 
-
-
+Endpoints del IAM:
+<p align="center">
+  <img src="./imagenes/endpoints/iam.png" alt="iam" width="750">
+</p>
+Endpoints de User y User Profile, junto con sus alergias, nivel de actividad y objectivos.
+<p align="center">
+  <img src="./imagenes/endpoints/user1.png" alt="user1" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/endpoints/user2.png" alt="user2" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/endpoints/user3.png" alt="user3" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/endpoints/user4.png" alt="user4" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/endpoints/user5.png" alt="user5" width="750">
+</p>
+Endpoints acerca de Meal Plan.
+<p align="center">
+  <img src="./imagenes/endpoints/meal-plan1.png" alt="meal-plan1" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/endpoints/meal-plan2.png" alt="meal-plan2" width="750">
+</p>
+Endpoints de las recetas, ingredientes que son parte de estas y sus categorias.
+<p align="center">
+  <img src="./imagenes/endpoints/recipe&ingredients1.png" alt="recipe-ingredients1" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/endpoints/recipe&ingredients2.png" alt="recipe-ingredients2" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/endpoints/recipe&ingredients3.png" alt="recipe-ingredients3" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/endpoints/recipe&ingredients4.png" alt="recipe-ingredients4" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/endpoints/recipe&ingredients5.png" alt="recipe-ingredients5" width="750">
+</p>
+Endpoints para Recomendación a los Users.
+<p align="center">
+  <img src="./imagenes/endpoints/recommendation1.png" alt="recomentadion1" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/endpoints/recommendation2.png" alt="recomentadion2" width="750">
+</p>
+Dashboard principal de la aplicación Frontend.
+<p align="center">
+  <img src="./imagenes/frontend.png" alt="swagger3" width="750">
+</p>
+Adicionamiento del Video About the Team en la Landing page.
+<p align="center">
+  <img src="./imagenes/meetOurTeam.png" alt="meetOurTeam" width="750">
+</p>
 
 ##### 5.2.4.6. Service Documentation Evidence for Sprint Review.
 
+### Meal Plan
 
+| Endpoint            | Acción                              | Método HTTP | Sintaxis de llamada               | Parámetros                                                                                                                                         | Ejemplo de Response                                                                                                                                                                                                                                    | URL Documentación  |
+|---------------------|--------------------------------------|-------------|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| `/meal-plan`        | Obtener todos los meal plans         | `GET`       | `/api/v1/meal-plan`               | Ninguno                                                                                                                                             | `{ "id": 0, "name": "string", "description": "string", "calories": 0.1, "carbs": 0.1, "proteins": 0.1, "fats": 0.1, "profileId": 0, "category": "string", "isCurrent": true, "entries": [{ "id": 0, "recipeId": 0, "mealPlanType": "string", "mealPlanId": 0 }], "tags": ["string"] }` | (URL Swagger/doc)  |
+| `/meal-plan`        | Crear un nuevo meal plan             | `POST`      | `/api/v1/meal-plan`               | `name`, `description`, `calories`, `carbs`, `proteins`, `fats`, `profileId`, `category`, `isCurrent`, `entries`, `tags`                              | Igual que el response de GET                                                                                                                                                                                                                             | (URL Swagger/doc)  |
+| `/meal-plan/{id}`   | Obtener un meal plan por ID          | `GET`       | `/api/v1/meal-plan/{mealPlanId}`  | `mealPlanId` (path)                                                                                                                                 | Igual que el response de GET                                                                                                                                                                                                                             | (URL Swagger/doc)  |
+| `/meal-plan/{id}`   | Actualizar un meal plan por ID       | `PUT`       | `/api/v1/meal-plan/{mealPlanId}`  | Todos los campos del objeto meal plan                                                                                                              | Igual que el response de GET                                                                                                                                                                                                                             | (URL Swagger/doc)  |
+
+<p align="center">
+  <img src="./imagenes/mealPlan_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/mealPlan_post.png" alt="swagger3" width="600">
+</p>
+
+
+### User Profiles
+
+| Endpoint                   | Acción                                  | Método HTTP | Sintaxis de llamada           | Parámetros                                                                                            | Ejemplo de Response                                                                                                         | URL Documentación  |
+|----------------------------|------------------------------------------|-------------|-------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------------|
+| `/api/v1/user-profiles`    | Obtener todos los perfiles de usuario    | `GET`       | `/api/v1/user-profiles`       | Ninguno                                                                                                | `{ "gender":"string","height":0.1,"weight":0.1,"userScore":0,"activityLevelId":0,"objectiveId":0,"allergyIds":[0] }`        | (URL Swagger/doc)  |
+| `/api/v1/user-profiles`    | Crear un nuevo perfil de usuario         | `POST`      | `/api/v1/user-profiles`       | `gender`, `height`, `weight`, `userScore`, `activityLevelId`, `objectiveId`, `allergyIds`              | Igual que el response de GET                                                                                                 | (URL Swagger/doc)  |
+| `/api/v1/user-profiles/{id}` | Obtener un perfil de usuario por ID    | `GET`       | `/api/v1/user-profiles/{id}`  | `id` (path)                                                                                             | Igual que el response de GET                                                                                                 | (URL Swagger/doc)  |
+| `/api/v1/user-profiles/{id}` | Actualizar un perfil de usuario por ID | `PUT`       | `/api/v1/user-profiles/{id}`  | `id`, `gender`, `height`, `weight`, `userScore`, `activityLevelId`, `objectiveId`, `allergyIds`        | Igual que el response de GET                                                                                                 | (URL Swagger/doc)  |
+| `/api/v1/user-profiles/{id}` | Eliminar un perfil de usuario por ID   | `DELETE`    | `/api/v1/user-profiles/{id}`  | `id` (path)                                                                                             | `204 No Content`                                                                                                            | (URL Swagger/doc)  |
+
+
+
+<p align="center">
+  <img src="./imagenes/user_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/user_post.png" alt="swagger3" width="600">
+</p>
+
+### User Profiles
+
+| Endpoint                   | Acción                                  | Método HTTP | Sintaxis de llamada           | Parámetros                                                                                            | Ejemplo de Response                                                                                                         | URL Documentación  |
+|----------------------------|------------------------------------------|-------------|-------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------------|
+| `/api/v1/user-profiles`    | Obtener todos los perfiles de usuario    | `GET`       | `/api/v1/user-profiles`       | Ninguno                                                                                                | `{ "gender":"string","height":0.1,"weight":0.1,"userScore":0,"activityLevelId":0,"objectiveId":0,"allergyIds":[0] }`        | (URL Swagger/doc)  |
+| `/api/v1/user-profiles`    | Crear un nuevo perfil de usuario         | `POST`      | `/api/v1/user-profiles`       | `gender`, `height`, `weight`, `userScore`, `activityLevelId`, `objectiveId`, `allergyIds`              | Igual que el response de GET                                                                                                 | (URL Swagger/doc)  |
+| `/api/v1/user-profiles/{id}` | Obtener un perfil de usuario por ID    | `GET`       | `/api/v1/user-profiles/{id}`  | `id` (path)                                                                                             | Igual que el response de GET                                                                                                 | (URL Swagger/doc)  |
+| `/api/v1/user-profiles/{id}` | Actualizar un perfil de usuario por ID | `PUT`       | `/api/v1/user-profiles/{id}`  | `id`, `gender`, `height`, `weight`, `userScore`, `activityLevelId`, `objectiveId`, `allergyIds`        | Igual que el response de GET                                                                                                 | (URL Swagger/doc)  |
+| `/api/v1/user-profiles/{id}` | Eliminar un perfil de usuario por ID   | `DELETE`    | `/api/v1/user-profiles/{id}`  | `id` (path)                                                                                             | `204 No Content`                                                                                                            | (URL Swagger/doc)  |
+
+<p align="center">
+  <img src="./imagenes/userProfile_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/userProfile_post.png" alt="swagger3" width="600">
+</p>
+
+### Objectives
+
+| Endpoint             | Acción                       | Método HTTP | Sintaxis de llamada    | Parámetros                                            | Ejemplo de Response                                                                 | URL Documentación  |
+|----------------------|-------------------------------|-------------|------------------------|--------------------------------------------------------|---------------------------------------------------------------------------------------|--------------------|
+| `/api/v1/objectives` | Obtener todos los objetivos   | `GET`       | `/api/v1/objectives`   | Ninguno                                                | `{ "id":0,"objectiveName":"string","score":0,"description":"string" }`               | (URL Swagger/doc)  |
+| `/api/v1/objectives` | Crear un nuevo objetivo       | `POST`      | `/api/v1/objectives`   | `id`, `objectiveName`, `score`, `description`          | Igual que el response de GET                                                          | (URL Swagger/doc)  |
+
+<p align="center">
+  <img src="./imagenes/objetive_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/objetive_post.png" alt="swagger3" width="600">
+</p>
+### Allergies
+
+| Endpoint             | Acción                  | Método HTTP | Sintaxis de llamada  | Parámetros                                    | Ejemplo de Response                                                   | URL Documentación  |
+|----------------------|--------------------------|-------------|----------------------|------------------------------------------------|-------------------------------------------------------------------------|--------------------|
+| `/api/v1/allergies`  | Obtener todas las alergias | `GET`       | `/api/v1/allergies`  | Ninguno                                        | `{ "id":0,"name":"string","relatedIngredients":[{ "name":"string" }] }`  | (URL Swagger/doc)  |
+| `/api/v1/allergies`  | Crear una nueva alergia    | `POST`      | `/api/v1/allergies`  | `id`, `name`, `relatedIngredients`             | Igual que el response de GET                                              | (URL Swagger/doc)  |
+
+<p align="center">
+  <img src="./imagenes/allergy_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/allergy_post.png" alt="swagger3" width="600">
+</p>
+### Activity Levels
+
+| Endpoint                   | Acción                            | Método HTTP | Sintaxis de llamada          | Parámetros                                                            | Ejemplo de Response                                                                                                                                   | URL Documentación  |
+|----------------------------|-----------------------------------|-------------|------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| `/api/v1/activity-levels`  | Obtener todos los niveles         | `GET`       | `/api/v1/activity-levels`    | Ninguno                                                                | `{ "createdAt":"2025-06-23T22:41:41.417Z","updatedAt":"2025-06-23T22:41:41.417Z","id":0,"name":"string","description":"string","activityFactor":0.1 }` | (URL Swagger/doc)  |
+| `/api/v1/activity-levels`  | Crear un nuevo nivel de actividad | `POST`      | `/api/v1/activity-levels`    | `createdAt`, `updatedAt`, `id`, `name`, `description`, `activityFactor` | Igual que el response de GET                                                                                                                            | (URL Swagger/doc)  |
+
+<p align="center">
+  <img src="./imagenes/activity_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/activity_post.png" alt="swagger3" width="600">
+</p>
+
+
+### Favorite Recipes
+
+| Endpoint                                    | Acción                               | Método HTTP | Sintaxis de llamada                | Parámetros                | Ejemplo de Response                          | URL Documentación  |
+|---------------------------------------------|--------------------------------------|-------------|------------------------------------|----------------------------|-----------------------------------------------|--------------------|
+| `/api/v1/favorite-recipes`                  | Crear una receta favorita            | `POST`      | `/api/v1/favorite-recipes`         | `userId`, `recipeId`       | `{ "userId":0,"recipeId":0 }`                 | (URL Swagger/doc)  |
+| `/api/v1/favorite-recipes/{userId}`         | Obtener recetas favoritas por usuario | `GET`       | `/api/v1/favorite-recipes/{userId}`| `userId` (path)            | `[ { "id":0,"userId":0,"recipeId":0,"recipeName":"string" } ]` | (URL Swagger/doc)  |
+| `/api/v1/favorite-recipes/{userId}/{recipeId}` | Eliminar una receta favorita        | `DELETE`    | `/api/v1/favorite-recipes/{userId}/{recipeId}` | `userId`, `recipeId` | `204 No Content`                             | (URL Swagger/doc)  |
+
+<p align="center">
+  <img src="./imagenes/favoriteRecipe_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/favoriteRecipe_post.png" alt="swagger3" width="600">
+</p>
+
+
+### Recipes & Related
+
+| Endpoint                                                   | Acción                          | Método HTTP | Sintaxis de llamada                          | Parámetros                                                                 | Ejemplo de Response                                                                                              | URL Documentación  |
+|------------------------------------------------------------|---------------------------------|-------------|----------------------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|
+| `/api/v1/recipes`                                          | Crear una nueva receta           | `POST`      | `/api/v1/recipes`                            | `name`,`description`,`preparationTime`,`difficulty`,`categoryId`,`recipeTypeId`,`userId` | `{ "name":"string",...}`                                                                                        | (URL Swagger/doc)  |
+| `/api/v1/recipes/{recipeId}`                               | Obtener receta por ID            | `GET`       | `/api/v1/recipes/{recipeId}`                 | `recipeId` (path)                                                           | `{ "id":0,"userId":0,"name":"string","description":"string",...}`                                                | (URL Swagger/doc)  |
+| `/api/v1/recipes/{recipeId}/ingredients/{ingredientId}`    | Añadir ingrediente a una receta  | `POST`      | `/api/v1/recipes/{recipeId}/ingredients/{ingredientId}` | `recipeId`,`ingredientId`                                      | `204 No Content`                                                                                                 | (URL Swagger/doc)  |
+| `/api/v1/ingredients`                                      | Crear un nuevo ingrediente        | `POST`      | `/api/v1/ingredients`                        | `name`,`calories`,`carbohydrates`,`proteins`,`fats`,`macronutrientValuesId`  | `{ "name":"string",...}`                                                                                         | (URL Swagger/doc)  |
+| `/api/v1/ingredients/{ingredientId}`                       | Eliminar un ingrediente           | `DELETE`    | `/api/v1/ingredients/{ingredientId}`         | `ingredientId` (path)                                                       | `204 No Content`                                                                                                 | (URL Swagger/doc)  |
+| `/api/v1/categories`                                       | Crear una nueva categoría         | `POST`      | `/api/v1/categories`                         | `name`                                                                      | `{ "name":"string" }`                                                                                             | (URL Swagger/doc)  |
+| `/api/v1/categories/{categoryId}`                          | Obtener categoría por ID          | `GET`       | `/api/v1/categories/{categoryId}`            | `categoryId` (path)                                                         | `{ "id":0,"name":"string" }`                                                                                       | (URL Swagger/doc)  |
+| `/api/v1/recipe-types`                                     | Crear un nuevo tipo de receta     | `POST`      | `/api/v1/recipe-types`                       | `name`                                                                      | `{ "name":"string" }`                                                                                             | (URL Swagger/doc)  |
+| `/api/v1/recipe-types/{recipeTypeId}`                      | Obtener tipo de receta por ID     | `GET`       | `/api/v1/recipe-types/{recipeTypeId}`        | `recipeTypeId` (path)                                                       | `{ "id":0,"name":"string" }`                                                                                       | (URL Swagger/doc)  |
+
+<p align="center">
+  <img src="./imagenes/recipe_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/recipe_post.png" alt="swagger3" width="600">
+</p>
+----
+<p align="center">
+  <img src="./imagenes/ingredient_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/ingredient_post.png" alt="swagger3" width="600">
+</p>
+----
+<p align="center">
+  <img src="./imagenes/recipeType_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/recipeType_post.png" alt="swagger3" width="600">
+</p>
+
+
+### Tracking & Goals
+
+| Endpoint                                                               | Acción                                         | Método HTTP | Sintaxis de llamada                                         | Parámetros                   | Ejemplo de Response                                                       | URL Documentación  |
+|------------------------------------------------------------------------|------------------------------------------------|-------------|-------------------------------------------------------------|-------------------------------|-----------------------------------------------------------------------------|--------------------|
+| `/api/v1/tracking`                                                     | Crear un nuevo tracking                        | `POST`      | `/api/v1/tracking`                                         | Body con datos de tracking    | `{ "id":0,"userId":0,"startDate":"2025-06-23","endDate":"2025-06-30" }`     | (URL Swagger/doc)  |
+| `/api/v1/tracking/user/{userId}`                                       | Obtener tracking por ID de usuario             | `GET`       | `/api/v1/tracking/user/{userId}`                           | `userId` (path)               | `{ "id":0,"userId":1,"startDate":"2025-06-23","endDate":"2025-06-30" }`     | (URL Swagger/doc)  |
+| `/api/v1/tracking/macronutrients/consumed/tracking/{trackingId}`       | Obtener macros consumidos por tracking         | `GET`       | `/api/v1/tracking/macronutrients/consumed/tracking/{trackingId}` | `trackingId` (path)        | `{ "calories":1200.0,"carbs":150.0,"proteins":80.0,"fats":50.0 }`           | (URL Swagger/doc)  |
+| `/api/v1/macronutrients/consumed/tracking/{trackingId}`                | Obtener valores de macronutrientes consumidos  | `GET`       | `/api/v1/macronutrients/consumed/tracking/{trackingId}`      | `trackingId` (path)           | Igual que el response anterior                                              | (URL Swagger/doc)  |
+| `/api/v1/tracking-goals`                                               | Crear un nuevo Tracking Goal                   | `POST`      | `/api/v1/tracking-goals`                                    | Body con objetivos            | `{ "id":1,"userId":1,"targetCalories":2000.0,"targetCarbs":250.0,"targetProteins":100.0,"targetFats":70.0 }` | (URL Swagger/doc)  |
+| `/api/v1/tracking-goals/{trackingGoalId}/target-macros`                | Obtener macros objetivos por ID de Tracking Goal | `GET`    | `/api/v1/tracking-goals/{trackingGoalId}/target-macros`     | `trackingGoalId` (path)       | `{ "targetCalories":2000.0,"targetCarbs":250.0,"targetProteins":100.0,"targetFats":70.0 }` | (URL Swagger/doc)  |
+| `/api/v1/tracking-goals/user/{userId}`                                 | Obtener Tracking Goal por usuario              | `GET`       | `/api/v1/tracking-goals/user/{userId}`                      | `userId` (path)               | Igual que el response de POST de tracking-goals                              | (URL Swagger/doc)  |
+
+<p align="center">
+  <img src="./imagenes/trackings_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/trackings_post.png" alt="swagger3" width="600">
+</p>
+
+### Meal Plan Entries
+
+| Endpoint                                                                          | Acción                                          | Método HTTP | Sintaxis de llamada                                                        | Parámetros                                                                            | Ejemplo de Response                                                  | URL Documentación  |
+|-----------------------------------------------------------------------------------|-------------------------------------------------|-------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------|------------------------------------------------------------------------|--------------------|
+| `/api/v1/meal-plan-entries/{mealPlanEntryId}`                                     | Actualizar una entrada de meal plan             | `PUT`       | `/api/v1/meal-plan-entries/{mealPlanEntryId}`                              | `mealPlanEntryId` (path), body con datos a actualizar                                 | `{ "id":1,"recipeId":10,"mealPlanType":"LUNCH","mealPlanId":3 }`      | (URL Swagger/doc)  |
+| `/api/v1/meal-plan-entries/tracking/{trackingId}`                                 | Añadir una nueva entrada de meal plan al tracking | `POST`      | `/api/v1/meal-plan-entries/tracking/{trackingId}`                         | `trackingId` (path), body con `recipeId`, `mealPlanType`                              | Igual que el response de PUT                                           | (URL Swagger/doc)  |
+| `/api/v1/meal-plan-entries/tracking/{trackingId}`                                 | Obtener todas las entradas de meal plan por tracking | `GET`    | `/api/v1/meal-plan-entries/tracking/{trackingId}`                         | `trackingId` (path)                                                                     | `[ { "id":1,"recipeId":10,"mealPlanType":"BREAKFAST","mealPlanId":3 }, ... ]` | (URL Swagger/doc)  |
+| `/api/v1/meal-plan-entries/tracking/{trackingId}/entry/{mealPlanEntryId}`         | Eliminar una entrada específica del meal plan   | `DELETE`    | `/api/v1/meal-plan-entries/tracking/{trackingId}/entry/{mealPlanEntryId}` | `trackingId`, `mealPlanEntryId` (path)                                                | `204 No Content`                                                     | (URL Swagger/doc)  |
+
+<p align="center">
+  <img src="./imagenes/trackings_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/trackings_post.png" alt="swagger3" width="600">
+</p>
+
+### Recommendation Templates
+
+| Endpoint                             | Acción                                | Método HTTP | Sintaxis de llamada                      | Parámetros         | Ejemplo de Response                                                                                                                                         | URL Documentación  |
+|--------------------------------------|---------------------------------------|-------------|------------------------------------------|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| `/api/v1/recommendation-templates`   | Obtener todos los templates           | `GET`       | `/api/v1/recommendation-templates`       | Ninguno             | `[ { "id":1,"title":"Plan nutricional para masa muscular","content":"Incluye proteína magra, carbos complejos y grasas buenas","recommendations":[] } ]`                                            | (URL Swagger/doc)  |
+| `/api/v1/recommendation-templates`   | Crear un nuevo template               | `POST`      | `/api/v1/recommendation-templates`       | `title`, `content` | `{ "id":2,"title":"Plan post-entreno","content":"Incluye batidos con whey protein, avena y banana","recommendations":[] }`                                                                              | (URL Swagger/doc)  |
+
+
+<p align="center">
+  <img src="./imagenes/recomendationTemplate_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/recomendationTemplate_post.png" alt="swagger3" width="600">
+</p>
+
+### Recommendations
+
+| Endpoint                                | Acción                                | Método HTTP | Sintaxis de llamada                    | Parámetros                                              | Ejemplo de Response                                                                                                                                                                                                                                                                                                      | URL Documentación  |
+|-----------------------------------------|---------------------------------------|-------------|----------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| `/api/v1/recommendations/user/{userId}` | Obtener recomendaciones por usuario   | `GET`       | `/api/v1/recommendations/user/{userId}`| `userId` (path)                                          | `[ { "id":5,"userId":{"value":1},"templateId":2,"reason":"Fase de volumen","notes":"Comidas densas en calorías","timeOfDay":"MORNING","score":9.1,"status":"ACTIVE","assignedAt":"2025-06-23T04:49:59.728Z" } ]`                                                                             | (URL Swagger/doc)  |
+| `/api/v1/recommendations`               | Asignar una recomendación a un usuario| `POST`      | `/api/v1/recommendations`             | `userId`,`templateId`,`reason`,`notes`,`timeOfDay`,`score`,`status` | `{ "id":6,"userId":{"value":2},"templateId":3,"reason":"Recuperación post-lesión","notes":"Alta proteína, omega 3 y antioxidantes","timeOfDay":"EVENING","score":8.3,"status":"ACTIVE","assignedAt":"2025-06-23T04:49:59.728Z" }`                                                                                | (URL Swagger/doc)  |
+| `/api/v1/recommendations/{id}`          | Actualizar una recomendación          | `PUT`       | `/api/v1/recommendations/{id}`        | `id`, `reason`, `notes`, `timeOfDay`, `score`, `status`  | `{ "id":6,"userId":{"value":2},"templateId":3,"reason":"Actualización: aumento de actividad","notes":"Agregar snack con frutos secos","timeOfDay":"AFTERNOON","score":9.0,"status":"ACTIVE","assignedAt":"2025-06-23T04:49:59.728Z" }`                                                              | (URL Swagger/doc)  |
+| `/api/v1/recommendations/{id}`          | Eliminar una recomendación            | `DELETE`    | `/api/v1/recommendations/{id}`        | `id` (path)                                              | `204 No Content`                                                                                                                                                                                                                                                                    | (URL Swagger/doc)  |
+
+
+
+<p align="center">
+  <img src="./imagenes/recomendation_get.png" alt="swagger3" width="600">
+</p>
+<p align="center">
+  <img src="./imagenes/recomendation_post.png" alt="swagger3" width="600">
+</p>
 
 ##### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
 
-
-
-
 ##### 5.2.4.8. Team Colaborators Insights durign Sprint.
-
-
-
 
 Durante esta entrega del proyecto, el equipo mantuvo una coordinación constante en las tareas del backend. Además se realizaron las actualizaciones dentro del documento y el frontend, asimismo se realizó las actualizaciones de la landing page, aplicando una colaboración efectiva para asegurar un correcto modelado y funcionalidad de nuestra logica de negocio.
 
