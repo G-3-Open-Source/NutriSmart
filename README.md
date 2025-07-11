@@ -66,7 +66,11 @@
 | 0.20    | 16/06/2025  | Fabrizio Paredes                                                                                              | feat: added sprint planning 3 and aspect leaders and collaborators (c8ee911); feat: fixed Aspect Leaders and collaborators (a0c48fd).                                                                                                                                |
 | 0.21    | 17/06/2025  | Leonardo Prieto                                                                                               | feat: adding interview design (dce4e07).                                                                                                                                                                                                                             |
 | 0.22    | 23/06/2025  | Jorge Linares, Leonardo Prieto, Fabrizio Paredes, Sebastian Rodríguez, Héctor Ríos                             | evidence for sprint added (a572dfa); feat: adding anexos & fixing sprint 2 (23ae2c8); feat: add interview (5015b7e); feat: added student outcome (e55c2fa); feat: add 5.3.1 (08e9d49); updating develop (ab9948a); feat: adding sprint backlog (6f6994b); feat: adding student outcome (79cc384); feat: adding Development Evidence for Sprint Review (9dbc104). |
-
+| 0.23    | 23/06/2025  | Jorge Linares, Leonardo Prieto, Fabrizio Paredes, Sebastián Rodríguez, Héctor Ríos | Evidence for sprint added; se agregaron anexos; entrevistas; outcome; backlog; evidencia de desarrollo para Sprint Review. |
+| 0.24    | 05/07/2025  | Héctor Ríos                                                       | Actualización de evidencias de ejecución y documentación de servicios para Sprint Review. Se actualizaron enlaces y backlog de sprint 3. |
+| 0.25    | 07/07/2025  | Fabrizio Paredes, equipo G3                                       | Merge de feature/paredes; se agregó Sprint 4; líderes de aspectos y colaboradores.                                  |
+| 0.26    | 09/07/2025  | Héctor Ríos                                                       | Agregadas evidencias de desarrollo, historias, y conclusiones de outcome.                                         |
+| 0.27    | 11/07/2025  | Sebastián Rodríguez, Leonardo Prieto, Fabrizio Paredes            | feat: agregado outcome; evidencia, ejecución y conclusión de outcome; fix de outcome; feat: despliegue.           |
 
 
 
@@ -83,6 +87,16 @@ Aqui se pueden aprecion todos los commits hechos en la TB1 evidenciando el traba
 **Insights Landing Page**
 <p align="center">
     <img src="imagenes/insights- landing page.png" alt="insights-landing page" width="600px"/>
+</p>
+
+**Insights FrontEnd**
+<p align="center">
+    <img src="imagenes/insights-frontend.png" alt="insights-frontend" width="600px"/>
+</p>
+
+**Insights BackEnd**
+<p align="center">
+    <img src="imagenes/insights-backend.png" alt="insights-backend" width="600px"/>
 </p>
 
 ## Tabla de Contenidos
