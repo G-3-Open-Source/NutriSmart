@@ -2820,8 +2820,98 @@ Adicionamiento del Video About the Team en la Landing page.
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
+#### Guía para Desplegar un Proyecto Spring Boot con Docker en Render
 
-####FALTA###############################################################################################################
+######  Paso 1: Prepara tu proyecto Spring Boot
+- Asegúrate que el proyecto compile sin errores.
+
+<p align="center">
+  <img src="./imagenes/deploy1.png" alt="deploy1" width="600">
+</p>
+
+######  Paso 2: Configura las variables en tu archivo de propiedades
+- Usa variables que dependan del entorno (`application.properties` o `application.yml`).
+
+<p align="center">
+  <img src="./imagenes/deploy2.png" alt="deploy2" width="600">
+</p>
+
+######  Paso 3: Crea el archivo `Dockerfile` en la raíz del proyecto
+- Define las instrucciones necesarias para construir tu app con Docker.
+
+<p align="center">
+  <img src="./imagenes/deploy3.png" alt="deploy3" width="600">
+</p>
+
+######  Paso 4: Sube todo el proyecto a un repositorio en GitHub
+- Asegúrate de subir el `Dockerfile` y todo el código fuente.
+
+<p align="center">
+  <img src="./imagenes/deploy4.png" alt="deploy4" width="600">
+</p>
+
+
+###### Paso 5: Crea una base de datos PostgreSQL en Render
+- Copia los datos de conexión (host, puerto, usuario, contraseña, nombre de la base de datos).
+
+<p align="center">
+  <img src="./imagenes/deploy5.png" alt="deploy5" width="600">
+</p>
+
+######  Paso 6: En Render, crea un nuevo servicio web
+- Usa la opción “Deploy from a Git repository” y selecciona tu repositorio de GitHub.
+<p align="center">
+  <img src="./imagenes/deploy6.png" alt="deploy6" width="600">
+</p>
+
+
+######  Paso 7: Configura las variables de entorno en Render
+- Agrega las variables necesarias:
+  - Conexión a base de datos (`DB_URL`, `DB_USERNAME`, `DB_PASSWORD`)
+  - Puerto (`PORT`)
+  - Claves JWT
+  - Hibernate settings, entre otros
+
+  <p align="center">
+  <img src="./imagenes/deploy7.png" alt="deploy7" width="600">
+</p>
+
+######  Paso 8: Render detecta el `Dockerfile`
+- Render construye automáticamente la aplicación usando el `Dockerfile`.
+
+<p align="center">
+  <img src="./imagenes/deploy8.png" alt="deploy8" width="600">
+</p>
+
+
+######  Paso 9: Espera a que el deploy termine
+- Verifica que el estado del servicio sea “**Live**”.
+
+<p align="center">
+  <img src="./imagenes/deploy9.png" alt="deploy9" width="600">
+</p>
+
+######  Paso 10: Copia la URL pública que Render genera
+- Esta será la URL base de tu API.
+
+<p align="center">
+  <img src="./imagenes/deploy10.png" alt="deploy10" width="600">
+</p>
+
+######  Paso 11: Prueba tu API con Postman
+- Realiza llamadas a los endpoints de autenticación (registro e inicio de sesión).
+- Envía los datos correctos en el cuerpo de la petición.
+
+<p align="center">
+  <img src="./imagenes/deploy11.png" alt="deploy11" width="600">
+</p>
+
+######  Paso 12: Usa el token JWT para acceder a rutas protegidas
+- Incluye el token en el header `Authorization` con el formato:  
+
+<p align="center">
+  <img src="./imagenes/deploy12.png" alt="deploy12" width="600">
+</p>
 
 
 ##### 5.2.3.8. Team Colaborators Insights durign Sprint.
@@ -3201,6 +3291,98 @@ Adicionamiento del Video About the Team en la Landing page.
 
 ##### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
+#### Guía para Desplegar un Proyecto Spring Boot con Docker en Render
+
+######  Paso 1: Prepara tu proyecto Spring Boot
+- Asegúrate que el proyecto compile sin errores.
+
+<p align="center">
+  <img src="./imagenes/deploy1.png" alt="deploy1" width="600">
+</p>
+
+######  Paso 2: Configura las variables en tu archivo de propiedades
+- Usa variables que dependan del entorno (`application.properties` o `application.yml`).
+
+<p align="center">
+  <img src="./imagenes/deploy2.png" alt="deploy2" width="600">
+</p>
+
+######  Paso 3: Crea el archivo `Dockerfile` en la raíz del proyecto
+- Define las instrucciones necesarias para construir tu app con Docker.
+
+<p align="center">
+  <img src="./imagenes/deploy3.png" alt="deploy3" width="600">
+</p>
+
+######  Paso 4: Sube todo el proyecto a un repositorio en GitHub
+- Asegúrate de subir el `Dockerfile` y todo el código fuente.
+
+<p align="center">
+  <img src="./imagenes/deploy4.png" alt="deploy4" width="600">
+</p>
+
+
+###### Paso 5: Crea una base de datos PostgreSQL en Render
+- Copia los datos de conexión (host, puerto, usuario, contraseña, nombre de la base de datos).
+
+<p align="center">
+  <img src="./imagenes/deploy5.png" alt="deploy5" width="600">
+</p>
+
+######  Paso 6: En Render, crea un nuevo servicio web
+- Usa la opción “Deploy from a Git repository” y selecciona tu repositorio de GitHub.
+<p align="center">
+  <img src="./imagenes/deploy6.png" alt="deploy6" width="600">
+</p>
+
+
+######  Paso 7: Configura las variables de entorno en Render
+- Agrega las variables necesarias:
+  - Conexión a base de datos (`DB_URL`, `DB_USERNAME`, `DB_PASSWORD`)
+  - Puerto (`PORT`)
+  - Claves JWT
+  - Hibernate settings, entre otros
+
+  <p align="center">
+  <img src="./imagenes/deploy7.png" alt="deploy7" width="600">
+</p>
+
+######  Paso 8: Render detecta el `Dockerfile`
+- Render construye automáticamente la aplicación usando el `Dockerfile`.
+
+<p align="center">
+  <img src="./imagenes/deploy8.png" alt="deploy8" width="600">
+</p>
+
+
+######  Paso 9: Espera a que el deploy termine
+- Verifica que el estado del servicio sea “**Live**”.
+
+<p align="center">
+  <img src="./imagenes/deploy9.png" alt="deploy9" width="600">
+</p>
+
+######  Paso 10: Copia la URL pública que Render genera
+- Esta será la URL base de tu API.
+
+<p align="center">
+  <img src="./imagenes/deploy10.png" alt="deploy10" width="600">
+</p>
+
+######  Paso 11: Prueba tu API con Postman
+- Realiza llamadas a los endpoints de autenticación (registro e inicio de sesión).
+- Envía los datos correctos en el cuerpo de la petición.
+
+<p align="center">
+  <img src="./imagenes/deploy11.png" alt="deploy11" width="600">
+</p>
+
+######  Paso 12: Usa el token JWT para acceder a rutas protegidas
+- Incluye el token en el header `Authorization` con el formato:  
+
+<p align="center">
+  <img src="./imagenes/deploy12.png" alt="deploy12" width="600">
+</p>
 
 ##### 5.2.4.8. Team Colaborators Insights durign Sprint.
 
