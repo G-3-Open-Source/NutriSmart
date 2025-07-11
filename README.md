@@ -2054,7 +2054,7 @@ El proyecto se estructurará en función de responsabilidades y funcionalidades,
 
 - Acceso a atributos mediante métodos getter y setter.
 
-- Se sigue el [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
+- Se sigue el https://google.github.io/styleguide/javaguide.html
 
 ##### Internacionalización
 
@@ -3068,6 +3068,21 @@ Dashboard principal de la aplicación Frontend.
 <p align="center">
   <img src="./imagenes/frontend.png" alt="swagger3" width="750">
 </p>
+<p align="center">
+  <img src="./imagenes/meal-plan.png" alt="mealPlan" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/user-profile.png" alt="user-profile" width="300">
+</p>
+<p align="center">
+  <img src="./imagenes/recipes.png" alt="recipes" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/tracking.png" alt="tracking" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/recommendations.png" alt="recommendation" width="750">
+</p>
 Adicionamiento del Video About the Team en la Landing page.
 <p align="center">
   <img src="./imagenes/meetOurTeam.png" alt="meetOurTeam" width="750">
@@ -3686,4 +3701,6 @@ Gómez Vega, R. (2024, 7 de octubre). La otra cara de la exitosa comida peruana.
 
 - Deployment Landing: https://g-3-open-source.github.io/landing-page/
 - Deployment FrontEnd: https://open-source-app-56e02.web.app/
+- Deployment BackEnd: https://backend-app-deploy-aqcx.onrender.com/
 - Video About the Product: https://youtu.be/I91UHuhaDXo
+- Video About the Team: https://youtu.be/U9cmfxeYR10
