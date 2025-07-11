@@ -2945,8 +2945,19 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
 
 
 
+Durante esta entrega del proyecto, el equipo mantuvo una coordinación constante en las tareas del backend. Además se realizaron las actualizaciones dentro del documento y el frontend, asimismo se realizó las actualizaciones de la landing page, aplicando una colaboración efectiva para asegurar un correcto modelado y funcionalidad de nuestra logica de negocio.
 
--
+**Evidencia del trabajo conjunto:**
+
+La siguiente imagen muestra los commits por integrante, reflejando el involucramiento activo de todos los miembros en el desarrollo del backend:
+
+CAMBIAR TODO DKFMKDJFKDJSFJSDNFJSDFKJSDF
+
+<p align="center">
+    <img src="imagenes/insights-backend-tb2.png"/>
+</p>
+
+<hr>
 
 #### 5.3. Validation Interviews.
 
