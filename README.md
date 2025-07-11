@@ -84,20 +84,6 @@ Aqui se pueden aprecion todos los commits hechos en la TB1 evidenciando el traba
     <img src="imagenes/insights-readme.png" alt="insights-readme" width="600px"/>
 </p>
 
-**Insights Landing Page**
-<p align="center">
-    <img src="imagenes/insights- landing page.png" alt="insights-landing page" width="600px"/>
-</p>
-
-**Insights FrontEnd**
-<p align="center">
-    <img src="imagenes/insights-frontend.png" alt="insights-frontend" width="600px"/>
-</p>
-
-**Insights BackEnd**
-<p align="center">
-    <img src="imagenes/insights-backend.png" alt="insights-backend" width="600px"/>
-</p>
 
 ## Tabla de Contenidos
 
@@ -3406,10 +3392,19 @@ Durante esta entrega del proyecto, el equipo mantuvo una coordinación constante
 
 La siguiente imagen muestra los commits por integrante, reflejando el involucramiento activo de todos los miembros en el desarrollo del backend:
 
-CAMBIAR TODO DKFMKDJFKDJSFJSDNFJSDFKJSDF
-
+**Insights Landing Page**
 <p align="center">
-    <img src="imagenes/insights-backend-tb2.png"/>
+    <img src="imagenes/insights- landing page.png" alt="insights-landing page" width="600px"/>
+</p>
+
+**Insights FrontEnd**
+<p align="center">
+    <img src="imagenes/insights-frontend.png" alt="insights-frontend" width="600px"/>
+</p>
+
+**Insights BackEnd**
+<p align="center">
+    <img src="imagenes/insights-backend.png" alt="insights-backend" width="600px"/>
 </p>
 
 <hr>
